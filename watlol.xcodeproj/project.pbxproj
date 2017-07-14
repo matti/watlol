@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED6B78D21F17C30900DCB634 /* KeenClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6B78D11F17C30900DCB634 /* KeenClient.framework */; };
+		ED6B78D31F17C30900DCB634 /* KeenClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED6B78D11F17C30900DCB634 /* KeenClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ED6B78D61F17C98000DCB634 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6B78D51F17C98000DCB634 /* CoreLocation.framework */; };
+		ED6B78D81F17C98900DCB634 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6B78D71F17C98900DCB634 /* SystemConfiguration.framework */; };
 		EDEDDC5F1F002E8700E178D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEDDC5E1F002E8700E178D9 /* main.m */; };
 		EDEDDC621F002E8700E178D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEDDC611F002E8700E178D9 /* AppDelegate.m */; };
 		EDEDDC651F002E8700E178D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEDDC641F002E8700E178D9 /* ViewController.m */; };
 		EDEDDC681F002E8700E178D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEDDC661F002E8700E178D9 /* Main.storyboard */; };
 		EDEDDC6A1F002E8700E178D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEDDC691F002E8700E178D9 /* Assets.xcassets */; };
 		EDEDDC6D1F002E8700E178D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEDDC6B1F002E8700E178D9 /* LaunchScreen.storyboard */; };
+		EDEDDC761F002F4600E178D9 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDEDDC751F002F4600E178D9 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ED6B78D41F17C30900DCB634 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ED6B78D31F17C30900DCB634 /* KeenClient.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		ED6B78D11F17C30900DCB634 /* KeenClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeenClient.framework; path = Carthage/Build/iOS/KeenClient.framework; sourceTree = "<group>"; };
+		ED6B78D51F17C98000DCB634 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ED6B78D71F17C98900DCB634 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EDEDDC5A1F002E8700E178D9 /* watlol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watlol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEDDC5E1F002E8700E178D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDEDDC601F002E8700E178D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +48,7 @@
 		EDEDDC691F002E8700E178D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDEDDC6C1F002E8700E178D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDEDDC6E1F002E8700E178D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEDDC751F002F4600E178D9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +56,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6B78D81F17C98900DCB634 /* SystemConfiguration.framework in Frameworks */,
+				ED6B78D61F17C98000DCB634 /* CoreLocation.framework in Frameworks */,
+				ED6B78D21F17C30900DCB634 /* KeenClient.framework in Frameworks */,
+				EDEDDC761F002F4600E178D9 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +69,10 @@
 		EDEDDC511F002E8700E178D9 = {
 			isa = PBXGroup;
 			children = (
+				ED6B78D11F17C30900DCB634 /* KeenClient.framework */,
 				EDEDDC5C1F002E8700E178D9 /* watlol */,
 				EDEDDC5B1F002E8700E178D9 /* Products */,
+				EDEDDC741F002F4600E178D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +108,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EDEDDC741F002F4600E178D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED6B78D71F17C98900DCB634 /* SystemConfiguration.framework */,
+				ED6B78D51F17C98000DCB634 /* CoreLocation.framework */,
+				EDEDDC751F002F4600E178D9 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,6 +128,7 @@
 				EDEDDC561F002E8700E178D9 /* Sources */,
 				EDEDDC571F002E8700E178D9 /* Frameworks */,
 				EDEDDC581F002E8700E178D9 /* Resources */,
+				ED6B78D41F17C30900DCB634 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,7 +316,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 572WASG4SW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = watlol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lol.watlol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,7 +333,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 572WASG4SW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = watlol/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lol.watlol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -314,6 +364,7 @@
 				EDEDDC731F002E8700E178D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,8 @@
+coverage_service: coveralls
+workspace: ./KeenClient.xcworkspace
+xcodeproj: ./KeenClient.xcodeproj
+scheme: KeenClient
+ignore:
+  - KeenClientTests/*
+  - Library/*
+  - ../*

@@ -1,0 +1,1280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0111015614EF71FB009794A5 /* KeenClient-Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0111015714EF71FB009794A5 /* Build configuration list for PBXAggregateTarget "KeenClient-Aggregate" */;
+			buildPhases = (
+				0111015A14EF720D009794A5 /* Run Script */,
+			);
+			dependencies = (
+				1296398B19C10B4500B2B653 /* PBXTargetDependency */,
+			);
+			name = "KeenClient-Aggregate";
+			productName = "KeenClient-Aggregate";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0105EE9A14E9A9C80048D871 /* KeenClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 017EE12614E30C96000F3868 /* KeenClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		012E8A561672B9A90021F6FA /* KeenProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 012E8A541672B9A90021F6FA /* KeenProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		012E8A571672B9A90021F6FA /* KeenProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 012E8A551672B9A90021F6FA /* KeenProperties.m */; };
+		017EE12814E30C96000F3868 /* KeenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 017EE12714E30C96000F3868 /* KeenClient.m */; };
+		017EE13614E30C96000F3868 /* libKeenClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 017EE11E14E30C96000F3868 /* libKeenClient.a */; };
+		017EE13C14E30C96000F3868 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 017EE13A14E30C96000F3868 /* InfoPlist.strings */; };
+		017EE13F14E30C96000F3868 /* KeenClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 017EE13E14E30C96000F3868 /* KeenClientTests.m */; };
+		01BA1B0514E895BC00CF9F84 /* KeenConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BA1B0314E895BC00CF9F84 /* KeenConstants.h */; };
+		01BA1B0614E895BC00CF9F84 /* KeenConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BA1B0414E895BC00CF9F84 /* KeenConstants.m */; };
+		125D31A81B0E334D00DFCC97 /* HTTPCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = A51E31231B03C6EF00008248 /* HTTPCodes.m */; };
+		125D31A91B0E335300DFCC97 /* HTTPCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = A51E31221B03C6EF00008248 /* HTTPCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1296398E19C10D0000B2B653 /* keen_io_sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = DE34F6F1197586EE00051390 /* keen_io_sqlite3.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1296398F19C10D0000B2B653 /* keen_io_sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = DE34F6F2197586EE00051390 /* keen_io_sqlite3ext.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1296399019C10D0000B2B653 /* KeenClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 017EE12614E30C96000F3868 /* KeenClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1296399119C10D0000B2B653 /* KeenProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 012E8A541672B9A90021F6FA /* KeenProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1296399219C10D0000B2B653 /* KeenConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BA1B0314E895BC00CF9F84 /* KeenConstants.h */; };
+		1296399319C10D0000B2B653 /* KIODBStore.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6410D618E37E7C00E53E3C /* KIODBStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1296399419C10D2C00B2B653 /* KeenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 017EE12714E30C96000F3868 /* KeenClient.m */; };
+		1296399519C10D2C00B2B653 /* KeenProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 012E8A551672B9A90021F6FA /* KeenProperties.m */; };
+		1296399619C10D2C00B2B653 /* KeenConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BA1B0414E895BC00CF9F84 /* KeenConstants.m */; };
+		1296399719C10D2C00B2B653 /* KIODBStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6410D718E37E7C00E53E3C /* KIODBStore.m */; };
+		1296399819C10D4000B2B653 /* keen_io_sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = DE34F6F0197586EE00051390 /* keen_io_sqlite3.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		12AE4C3C1B4AD2880015F41F /* KIOQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E63D9EE1AE7356C00E57A17 /* KIOQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12AE4C3F1B4AD2AD0015F41F /* KIOQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E63D9EF1AE7356C00E57A17 /* KIOQuery.m */; };
+		3E1EA1E31C49A07C00111153 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1EA1E21C49A07000111153 /* libOCMock.a */; };
+		3E63D9F01AE7356C00E57A17 /* KIOQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E63D9EE1AE7356C00E57A17 /* KIOQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E63D9F11AE7356C00E57A17 /* KIOQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E63D9EF1AE7356C00E57A17 /* KIOQuery.m */; };
+		3E63D9F71AE7425000E57A17 /* KIOQueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E63D9F61AE7425000E57A17 /* KIOQueryTests.m */; };
+		3EE9A72F1C59873F00B7B2D9 /* KeenClientFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE9A72E1C59873F00B7B2D9 /* KeenClientFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE9A7371C5988D200B7B2D9 /* KIOReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B6011A0D8EB4000825FE /* KIOReachability.m */; };
+		3EE9A7381C5988D200B7B2D9 /* keen_io_sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = DE34F6F0197586EE00051390 /* keen_io_sqlite3.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3EE9A7391C5988D200B7B2D9 /* HTTPCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = A51E31231B03C6EF00008248 /* HTTPCodes.m */; };
+		3EE9A73A1C5988D200B7B2D9 /* KeenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 017EE12714E30C96000F3868 /* KeenClient.m */; };
+		3EE9A73B1C5988D200B7B2D9 /* KeenProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 012E8A551672B9A90021F6FA /* KeenProperties.m */; };
+		3EE9A73C1C5988D200B7B2D9 /* KeenConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BA1B0414E895BC00CF9F84 /* KeenConstants.m */; };
+		3EE9A73D1C5988D200B7B2D9 /* KIODBStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6410D718E37E7C00E53E3C /* KIODBStore.m */; };
+		3EE9A73E1C5988D200B7B2D9 /* KIOQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E63D9EF1AE7356C00E57A17 /* KIOQuery.m */; };
+		3EE9A73F1C5988F100B7B2D9 /* KIOReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D3B6001A0D8EB4000825FE /* KIOReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE9A7401C5988F100B7B2D9 /* keen_io_sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = DE34F6F1197586EE00051390 /* keen_io_sqlite3.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EE9A7411C5988F100B7B2D9 /* keen_io_sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = DE34F6F2197586EE00051390 /* keen_io_sqlite3ext.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EE9A7421C5988F100B7B2D9 /* HTTPCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = A51E31221B03C6EF00008248 /* HTTPCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE9A7431C5988F100B7B2D9 /* KeenClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 017EE12614E30C96000F3868 /* KeenClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE9A7441C5988F100B7B2D9 /* KeenProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 012E8A541672B9A90021F6FA /* KeenProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE9A7451C5988F100B7B2D9 /* KeenConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BA1B0314E895BC00CF9F84 /* KeenConstants.h */; };
+		3EE9A7461C5988F100B7B2D9 /* KIODBStore.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6410D618E37E7C00E53E3C /* KIODBStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE9A7471C5988F100B7B2D9 /* KIOQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E63D9EE1AE7356C00E57A17 /* KIOQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		480FEB711E846F7500641112 /* KIOUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 480FEB6F1E846F7500641112 /* KIOUtil.h */; };
+		480FEB721E846F7500641112 /* KIOUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 480FEB6F1E846F7500641112 /* KIOUtil.h */; };
+		480FEB731E846F7500641112 /* KIOUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 480FEB6F1E846F7500641112 /* KIOUtil.h */; };
+		480FEB741E846F7500641112 /* KIOUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 480FEB701E846F7500641112 /* KIOUtil.m */; };
+		480FEB751E846F7500641112 /* KIOUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 480FEB701E846F7500641112 /* KIOUtil.m */; };
+		480FEB761E846F7500641112 /* KIOUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 480FEB701E846F7500641112 /* KIOUtil.m */; };
+		481496EC1EC3832C00A9DEED /* SavedQueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 481496EB1EC3832C00A9DEED /* SavedQueryTests.m */; };
+		481794741EE8F66500586007 /* MockNSURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 481794731EE8F66500586007 /* MockNSURLSession.m */; };
+		481A9B7C1E5690950094B985 /* KeenLogSinkNSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 481A9B7A1E5690950094B985 /* KeenLogSinkNSLog.h */; };
+		481A9B7D1E5690950094B985 /* KeenLogSinkNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 481A9B7B1E5690950094B985 /* KeenLogSinkNSLog.m */; };
+		481A9B7E1E5691270094B985 /* KeenLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 481A9B711E5687EA0094B985 /* KeenLogSink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		482CB31D1E552F5300FCFACF /* corrupt.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 482CB31C1E552F5300FCFACF /* corrupt.sqlite */; };
+		48472CA51E9C526400DB3B41 /* KeenLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 48583E061E58CDE2002CFD99 /* KeenLogger.m */; };
+		48472CA91E9C52D700DB3B41 /* KeenLogSinkNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 481A9B7B1E5690950094B985 /* KeenLogSinkNSLog.m */; };
+		484BAC6E1EF1F763004FFB94 /* KIONetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BAC6D1EF1F763004FFB94 /* KIONetworkTests.m */; };
+		4854B8EB1EE628580033D8D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854B8E91EE627E20033D8D9 /* SystemConfiguration.framework */; };
+		48583E071E58CDE2002CFD99 /* KeenLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 48583E051E58CDE2002CFD99 /* KeenLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48583E081E58CDE2002CFD99 /* KeenLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 48583E061E58CDE2002CFD99 /* KeenLogger.m */; };
+		48583E0F1E5904FD002CFD99 /* KeenLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48583E0E1E5904FD002CFD99 /* KeenLoggerTests.m */; };
+		486B59521EB24E6900D5251D /* KeenClientConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 486B59501EB24E6900D5251D /* KeenClientConfig.h */; };
+		486B59531EB24E6900D5251D /* KeenClientConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 486B59501EB24E6900D5251D /* KeenClientConfig.h */; };
+		486B59541EB24E6900D5251D /* KeenClientConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 486B59501EB24E6900D5251D /* KeenClientConfig.h */; };
+		486B59551EB24E6900D5251D /* KeenClientConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B59511EB24E6900D5251D /* KeenClientConfig.m */; };
+		486B59561EB24E6900D5251D /* KeenClientConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B59511EB24E6900D5251D /* KeenClientConfig.m */; };
+		486B59581EB24E6900D5251D /* KeenClientConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B59511EB24E6900D5251D /* KeenClientConfig.m */; };
+		486B596E1EB29B0A00D5251D /* KeenTestCaseBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B596D1EB29B0A00D5251D /* KeenTestCaseBase.m */; };
+		486B59741EB29D2B00D5251D /* KeenTestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B59731EB29D2B00D5251D /* KeenTestUtils.m */; };
+		486B59761EB29DC500D5251D /* KeenTestConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 486B59751EB29DC500D5251D /* KeenTestConstants.m */; };
+		4877150C1EDF474F00012B0B /* KIODefaultNSURLSessionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 487715091EDF474F00012B0B /* KIODefaultNSURLSessionFactory.m */; };
+		4877150D1EDF474F00012B0B /* KIODefaultNSURLSessionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4877150A1EDF474F00012B0B /* KIODefaultNSURLSessionFactory.h */; };
+		4877150E1EDF474F00012B0B /* KIONSURLSessionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4877150B1EDF474F00012B0B /* KIONSURLSessionFactory.h */; };
+		4877150F1EDF4FA300012B0B /* KIODefaultNSURLSessionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 487715091EDF474F00012B0B /* KIODefaultNSURLSessionFactory.m */; };
+		487715101EDF4FB400012B0B /* KeenLogSinkNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 481A9B7B1E5690950094B985 /* KeenLogSinkNSLog.m */; };
+		487715111EDF4FF100012B0B /* KeenLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 48583E061E58CDE2002CFD99 /* KeenLogger.m */; };
+		487715121EDF535D00012B0B /* KIODefaultNSURLSessionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 487715091EDF474F00012B0B /* KIODefaultNSURLSessionFactory.m */; };
+		488892441EC12D06008C6024 /* KeenEventTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 488892431EC12D06008C6024 /* KeenEventTests.m */; };
+		4888924A1EC12E81008C6024 /* KeenGeoLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 488892491EC12E81008C6024 /* KeenGeoLocationTests.m */; };
+		4888924D1EC13C21008C6024 /* TestDatabaseRequirement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4888924C1EC13C21008C6024 /* TestDatabaseRequirement.m */; };
+		48AC67CB1E83364100E9C0A9 /* KIOFileStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AC67C91E83364100E9C0A9 /* KIOFileStore.h */; };
+		48AC67CC1E83364100E9C0A9 /* KIOFileStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AC67C91E83364100E9C0A9 /* KIOFileStore.h */; };
+		48AC67CD1E83364100E9C0A9 /* KIOFileStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AC67C91E83364100E9C0A9 /* KIOFileStore.h */; };
+		48AC67CE1E83364100E9C0A9 /* KIOFileStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC67CA1E83364100E9C0A9 /* KIOFileStore.m */; };
+		48AC67CF1E83364100E9C0A9 /* KIOFileStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC67CA1E83364100E9C0A9 /* KIOFileStore.m */; };
+		48AC67D01E83364100E9C0A9 /* KIOFileStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC67CA1E83364100E9C0A9 /* KIOFileStore.m */; };
+		48AC67D61E833C2D00E9C0A9 /* KIONetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AC67D41E833C2D00E9C0A9 /* KIONetwork.h */; };
+		48AC67D71E833C2D00E9C0A9 /* KIONetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AC67D41E833C2D00E9C0A9 /* KIONetwork.h */; };
+		48AC67D81E833C2D00E9C0A9 /* KIONetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AC67D41E833C2D00E9C0A9 /* KIONetwork.h */; };
+		48AC67D91E833C2D00E9C0A9 /* KIONetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC67D51E833C2D00E9C0A9 /* KIONetwork.m */; };
+		48AC67DA1E833C2D00E9C0A9 /* KIONetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC67D51E833C2D00E9C0A9 /* KIONetwork.m */; };
+		48AC67DB1E833C2D00E9C0A9 /* KIONetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC67D51E833C2D00E9C0A9 /* KIONetwork.m */; };
+		48AC67DE1E8348BA00E9C0A9 /* KIOUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AC67DC1E8348BA00E9C0A9 /* KIOUploader.h */; };
+		48AC67DF1E8348BA00E9C0A9 /* KIOUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AC67DC1E8348BA00E9C0A9 /* KIOUploader.h */; };
+		48AC67E01E8348BA00E9C0A9 /* KIOUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AC67DC1E8348BA00E9C0A9 /* KIOUploader.h */; };
+		48AC67E11E8348BA00E9C0A9 /* KIOUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC67DD1E8348BA00E9C0A9 /* KIOUploader.m */; };
+		48AC67E21E8348BA00E9C0A9 /* KIOUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC67DD1E8348BA00E9C0A9 /* KIOUploader.m */; };
+		48AC67E31E8348BA00E9C0A9 /* KIOUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC67DD1E8348BA00E9C0A9 /* KIOUploader.m */; };
+		48CA6C3A1EDF5FC50021C6F9 /* KIODefaultNSURLSessionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4877150A1EDF474F00012B0B /* KIODefaultNSURLSessionFactory.h */; };
+		48CA6C3B1EDF5FC50021C6F9 /* KIONSURLSessionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4877150B1EDF474F00012B0B /* KIONSURLSessionFactory.h */; };
+		48CA6C3C1EDF5FD70021C6F9 /* KIODefaultNSURLSessionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4877150A1EDF474F00012B0B /* KIODefaultNSURLSessionFactory.h */; };
+		48CA6C3D1EDF5FD70021C6F9 /* KIONSURLSessionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4877150B1EDF474F00012B0B /* KIONSURLSessionFactory.h */; };
+		48CAA1781ED60792003C2008 /* DatasetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CAA1771ED60792003C2008 /* DatasetTests.m */; };
+		48CAA17A1ED609F8003C2008 /* DatasetResponseBody.json in Resources */ = {isa = PBXBuildFile; fileRef = 48CAA1791ED609F8003C2008 /* DatasetResponseBody.json */; };
+		48E9F0C61EC255D1009A1BF8 /* FileStoreMigrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9F0C51EC255D1009A1BF8 /* FileStoreMigrationTests.m */; };
+		48E9F0C91EC2563F009A1BF8 /* GlobalPropertiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9F0C81EC2563F009A1BF8 /* GlobalPropertiesTests.m */; };
+		48E9F0CC1EC25719009A1BF8 /* SdkTrackingHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9F0CB1EC25719009A1BF8 /* SdkTrackingHeaderTests.m */; };
+		48E9F0CF1EC257BC009A1BF8 /* QueryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9F0CE1EC257BC009A1BF8 /* QueryTests.m */; };
+		A51E31241B03C6EF00008248 /* HTTPCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = A51E31221B03C6EF00008248 /* HTTPCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A51E31251B03C6EF00008248 /* HTTPCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = A51E31231B03C6EF00008248 /* HTTPCodes.m */; };
+		CA6410D818E37E7C00E53E3C /* KIODBStore.h in Headers */ = {isa = PBXBuildFile; fileRef = CA6410D618E37E7C00E53E3C /* KIODBStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6410D918E37E7C00E53E3C /* KIODBStore.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6410D718E37E7C00E53E3C /* KIODBStore.m */; };
+		CA6410E218E39F3A00E53E3C /* KIODBStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6410E118E39F3A00E53E3C /* KIODBStoreTests.m */; };
+		DE34F6F3197586EE00051390 /* keen_io_sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = DE34F6F0197586EE00051390 /* keen_io_sqlite3.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DE34F6F6197586EE00051390 /* keen_io_sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = DE34F6F1197586EE00051390 /* keen_io_sqlite3.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DE34F6F9197586EE00051390 /* keen_io_sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = DE34F6F2197586EE00051390 /* keen_io_sqlite3ext.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F4D3B6021A0D8EB4000825FE /* KIOReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D3B6001A0D8EB4000825FE /* KIOReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D3B6051A0D8EB4000825FE /* KIOReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D3B6001A0D8EB4000825FE /* KIOReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D3B6061A0D8EB4000825FE /* KIOReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B6011A0D8EB4000825FE /* KIOReachability.m */; };
+		F4D3B60A1A0D8EB4000825FE /* KIOReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D3B6011A0D8EB4000825FE /* KIOReachability.m */; };
+		FA4A14C91EC6236F0002E6CC /* KeenLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 48583E051E58CDE2002CFD99 /* KeenLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4A14CD1EC623740002E6CC /* KeenLogSinkNSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 481A9B7A1E5690950094B985 /* KeenLogSinkNSLog.h */; };
+		FA4A14CE1EC623760002E6CC /* KeenLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 481A9B711E5687EA0094B985 /* KeenLogSink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4A14E51EC629860002E6CC /* KeenLogSink.h in Headers */ = {isa = PBXBuildFile; fileRef = 481A9B711E5687EA0094B985 /* KeenLogSink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4A14E91EC6298A0002E6CC /* KeenLogSinkNSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 481A9B7A1E5690950094B985 /* KeenLogSinkNSLog.h */; };
+		FA4A14EA1EC6298D0002E6CC /* KeenLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 48583E051E58CDE2002CFD99 /* KeenLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		017EE13414E30C96000F3868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 017EE11514E30C95000F3868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 017EE11D14E30C96000F3868;
+			remoteInfo = KeenClient;
+		};
+		1296398A19C10B4500B2B653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 017EE11514E30C95000F3868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1296396219C10AD200B2B653;
+			remoteInfo = "KeenClient-Cocoa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012E8A541672B9A90021F6FA /* KeenProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenProperties.h; sourceTree = "<group>"; };
+		012E8A551672B9A90021F6FA /* KeenProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenProperties.m; sourceTree = "<group>"; };
+		017EE11E14E30C96000F3868 /* libKeenClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKeenClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		017EE12514E30C96000F3868 /* KeenClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeenClient-Prefix.pch"; sourceTree = "<group>"; };
+		017EE12614E30C96000F3868 /* KeenClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeenClient.h; sourceTree = "<group>"; };
+		017EE12714E30C96000F3868 /* KeenClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeenClient.m; sourceTree = "<group>"; };
+		017EE12E14E30C96000F3868 /* KeenClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeenClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		017EE13914E30C96000F3868 /* KeenClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeenClientTests-Info.plist"; sourceTree = "<group>"; };
+		017EE13B14E30C96000F3868 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		017EE13D14E30C96000F3868 /* KeenClientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeenClientTests.h; sourceTree = "<group>"; };
+		017EE13E14E30C96000F3868 /* KeenClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeenClientTests.m; sourceTree = "<group>"; };
+		01BA1B0314E895BC00CF9F84 /* KeenConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenConstants.h; sourceTree = "<group>"; };
+		01BA1B0414E895BC00CF9F84 /* KeenConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenConstants.m; sourceTree = "<group>"; };
+		1296396319C10AD200B2B653 /* libKeenClient-Cocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libKeenClient-Cocoa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E1EA1D71C499BE000111153 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		3E1EA1D81C499BE000111153 /* OCMArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		3E1EA1D91C499BE000111153 /* OCMConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		3E1EA1DA1C499BE000111153 /* OCMFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMFunctions.h; sourceTree = "<group>"; };
+		3E1EA1DB1C499BE000111153 /* OCMLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMLocation.h; sourceTree = "<group>"; };
+		3E1EA1DC1C499BE000111153 /* OCMMacroState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMMacroState.h; sourceTree = "<group>"; };
+		3E1EA1DD1C499BE000111153 /* OCMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		3E1EA1DE1C499BE000111153 /* OCMockObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		3E1EA1DF1C499BE000111153 /* OCMRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMRecorder.h; sourceTree = "<group>"; };
+		3E1EA1E01C499BE000111153 /* OCMStubRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMStubRecorder.h; sourceTree = "<group>"; };
+		3E1EA1E21C49A07000111153 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		3E63D9EE1AE7356C00E57A17 /* KIOQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIOQuery.h; sourceTree = "<group>"; };
+		3E63D9EF1AE7356C00E57A17 /* KIOQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIOQuery.m; sourceTree = "<group>"; };
+		3E63D9F51AE7425000E57A17 /* KIOQueryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIOQueryTests.h; sourceTree = "<group>"; };
+		3E63D9F61AE7425000E57A17 /* KIOQueryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIOQueryTests.m; sourceTree = "<group>"; };
+		3EE9A72C1C59873F00B7B2D9 /* KeenClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeenClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE9A72E1C59873F00B7B2D9 /* KeenClientFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeenClientFramework.h; sourceTree = "<group>"; };
+		3EE9A7301C59873F00B7B2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480FEB6F1E846F7500641112 /* KIOUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIOUtil.h; sourceTree = "<group>"; };
+		480FEB701E846F7500641112 /* KIOUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIOUtil.m; sourceTree = "<group>"; };
+		481496EA1EC3832C00A9DEED /* SavedQueryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedQueryTests.h; sourceTree = "<group>"; };
+		481496EB1EC3832C00A9DEED /* SavedQueryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedQueryTests.m; sourceTree = "<group>"; };
+		481794721EE8F66500586007 /* MockNSURLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockNSURLSession.h; sourceTree = "<group>"; };
+		481794731EE8F66500586007 /* MockNSURLSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockNSURLSession.m; sourceTree = "<group>"; };
+		481A9B711E5687EA0094B985 /* KeenLogSink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeenLogSink.h; sourceTree = "<group>"; };
+		481A9B7A1E5690950094B985 /* KeenLogSinkNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenLogSinkNSLog.h; sourceTree = "<group>"; };
+		481A9B7B1E5690950094B985 /* KeenLogSinkNSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenLogSinkNSLog.m; sourceTree = "<group>"; };
+		482CB31C1E552F5300FCFACF /* corrupt.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = corrupt.sqlite; sourceTree = "<group>"; };
+		484BAC6C1EF1F763004FFB94 /* KIONetworkTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIONetworkTests.h; sourceTree = "<group>"; };
+		484BAC6D1EF1F763004FFB94 /* KIONetworkTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIONetworkTests.m; sourceTree = "<group>"; };
+		4854B8E91EE627E20033D8D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		48583E051E58CDE2002CFD99 /* KeenLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenLogger.h; sourceTree = "<group>"; };
+		48583E061E58CDE2002CFD99 /* KeenLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenLogger.m; sourceTree = "<group>"; };
+		48583E0D1E5904FD002CFD99 /* KeenLoggerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenLoggerTests.h; sourceTree = "<group>"; };
+		48583E0E1E5904FD002CFD99 /* KeenLoggerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenLoggerTests.m; sourceTree = "<group>"; };
+		486B59501EB24E6900D5251D /* KeenClientConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenClientConfig.h; sourceTree = "<group>"; };
+		486B59511EB24E6900D5251D /* KeenClientConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenClientConfig.m; sourceTree = "<group>"; };
+		486B596C1EB29B0A00D5251D /* KeenTestCaseBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenTestCaseBase.h; sourceTree = "<group>"; };
+		486B596D1EB29B0A00D5251D /* KeenTestCaseBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenTestCaseBase.m; sourceTree = "<group>"; };
+		486B596F1EB29B7100D5251D /* KeenClientTestable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenClientTestable.h; sourceTree = "<group>"; };
+		486B59701EB29C2500D5251D /* KIONetworkTestable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIONetworkTestable.h; sourceTree = "<group>"; };
+		486B59711EB29C5200D5251D /* KIOUploaderTestable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIOUploaderTestable.h; sourceTree = "<group>"; };
+		486B59721EB29D2B00D5251D /* KeenTestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenTestUtils.h; sourceTree = "<group>"; };
+		486B59731EB29D2B00D5251D /* KeenTestUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenTestUtils.m; sourceTree = "<group>"; };
+		486B59751EB29DC500D5251D /* KeenTestConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenTestConstants.m; sourceTree = "<group>"; };
+		486B59771EB29DD400D5251D /* KeenTestConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeenTestConstants.h; sourceTree = "<group>"; };
+		487715091EDF474F00012B0B /* KIODefaultNSURLSessionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIODefaultNSURLSessionFactory.m; sourceTree = "<group>"; };
+		4877150A1EDF474F00012B0B /* KIODefaultNSURLSessionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIODefaultNSURLSessionFactory.h; sourceTree = "<group>"; };
+		4877150B1EDF474F00012B0B /* KIONSURLSessionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIONSURLSessionFactory.h; sourceTree = "<group>"; };
+		488892421EC12D06008C6024 /* KeenEventTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenEventTests.h; sourceTree = "<group>"; };
+		488892431EC12D06008C6024 /* KeenEventTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenEventTests.m; sourceTree = "<group>"; };
+		488892481EC12E81008C6024 /* KeenGeoLocationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeenGeoLocationTests.h; sourceTree = "<group>"; };
+		488892491EC12E81008C6024 /* KeenGeoLocationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeenGeoLocationTests.m; sourceTree = "<group>"; };
+		4888924B1EC13C21008C6024 /* TestDatabaseRequirement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDatabaseRequirement.h; sourceTree = "<group>"; };
+		4888924C1EC13C21008C6024 /* TestDatabaseRequirement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDatabaseRequirement.m; sourceTree = "<group>"; };
+		48AC67C91E83364100E9C0A9 /* KIOFileStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIOFileStore.h; sourceTree = "<group>"; };
+		48AC67CA1E83364100E9C0A9 /* KIOFileStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIOFileStore.m; sourceTree = "<group>"; };
+		48AC67D41E833C2D00E9C0A9 /* KIONetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIONetwork.h; sourceTree = "<group>"; };
+		48AC67D51E833C2D00E9C0A9 /* KIONetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIONetwork.m; sourceTree = "<group>"; };
+		48AC67DC1E8348BA00E9C0A9 /* KIOUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIOUploader.h; sourceTree = "<group>"; };
+		48AC67DD1E8348BA00E9C0A9 /* KIOUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIOUploader.m; sourceTree = "<group>"; };
+		48CAA1761ED60792003C2008 /* DatasetTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatasetTests.h; sourceTree = "<group>"; };
+		48CAA1771ED60792003C2008 /* DatasetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatasetTests.m; sourceTree = "<group>"; };
+		48CAA1791ED609F8003C2008 /* DatasetResponseBody.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DatasetResponseBody.json; sourceTree = "<group>"; };
+		48E9F0C31EC24CA8009A1BF8 /* KIODBStoreTestable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIODBStoreTestable.h; sourceTree = "<group>"; };
+		48E9F0C41EC255D1009A1BF8 /* FileStoreMigrationTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileStoreMigrationTests.h; sourceTree = "<group>"; };
+		48E9F0C51EC255D1009A1BF8 /* FileStoreMigrationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileStoreMigrationTests.m; sourceTree = "<group>"; };
+		48E9F0C71EC2563F009A1BF8 /* GlobalPropertiesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalPropertiesTests.h; sourceTree = "<group>"; };
+		48E9F0C81EC2563F009A1BF8 /* GlobalPropertiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalPropertiesTests.m; sourceTree = "<group>"; };
+		48E9F0CA1EC25719009A1BF8 /* SdkTrackingHeaderTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SdkTrackingHeaderTests.h; sourceTree = "<group>"; };
+		48E9F0CB1EC25719009A1BF8 /* SdkTrackingHeaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SdkTrackingHeaderTests.m; sourceTree = "<group>"; };
+		48E9F0CD1EC257BC009A1BF8 /* QueryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryTests.h; sourceTree = "<group>"; };
+		48E9F0CE1EC257BC009A1BF8 /* QueryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryTests.m; sourceTree = "<group>"; };
+		A51E31221B03C6EF00008248 /* HTTPCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPCodes.h; sourceTree = "<group>"; };
+		A51E31231B03C6EF00008248 /* HTTPCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPCodes.m; sourceTree = "<group>"; };
+		CA6410D618E37E7C00E53E3C /* KIODBStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIODBStore.h; sourceTree = "<group>"; };
+		CA6410D718E37E7C00E53E3C /* KIODBStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIODBStore.m; sourceTree = "<group>"; wrapsLines = 0; };
+		CA6410E018E39F3A00E53E3C /* KIODBStoreTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIODBStoreTests.h; sourceTree = "<group>"; };
+		CA6410E118E39F3A00E53E3C /* KIODBStoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIODBStoreTests.m; sourceTree = "<group>"; };
+		CACE78C918EA0CD800A4AB5B /* KIODBStorePrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIODBStorePrivate.h; sourceTree = "<group>"; };
+		DE34F6F0197586EE00051390 /* keen_io_sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keen_io_sqlite3.c; sourceTree = "<group>"; };
+		DE34F6F1197586EE00051390 /* keen_io_sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keen_io_sqlite3.h; sourceTree = "<group>"; };
+		DE34F6F2197586EE00051390 /* keen_io_sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keen_io_sqlite3ext.h; sourceTree = "<group>"; };
+		F4D3B6001A0D8EB4000825FE /* KIOReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIOReachability.h; sourceTree = "<group>"; };
+		F4D3B6011A0D8EB4000825FE /* KIOReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIOReachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		017EE11B14E30C96000F3868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017EE12A14E30C96000F3868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4854B8EB1EE628580033D8D9 /* SystemConfiguration.framework in Frameworks */,
+				3E1EA1E31C49A07C00111153 /* libOCMock.a in Frameworks */,
+				017EE13614E30C96000F3868 /* libKeenClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1296396019C10AD200B2B653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE9A7281C59873F00B7B2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015D30821822E8D200F8735B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				015D30831822E8D200F8735B /* OCMock */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		015D30831822E8D200F8735B /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EA1D71C499BE000111153 /* NSNotificationCenter+OCMAdditions.h */,
+				3E1EA1D81C499BE000111153 /* OCMArg.h */,
+				3E1EA1D91C499BE000111153 /* OCMConstraint.h */,
+				3E1EA1DA1C499BE000111153 /* OCMFunctions.h */,
+				3E1EA1DB1C499BE000111153 /* OCMLocation.h */,
+				3E1EA1DC1C499BE000111153 /* OCMMacroState.h */,
+				3E1EA1DD1C499BE000111153 /* OCMock.h */,
+				3E1EA1DE1C499BE000111153 /* OCMockObject.h */,
+				3E1EA1DF1C499BE000111153 /* OCMRecorder.h */,
+				3E1EA1E01C499BE000111153 /* OCMStubRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		017EE11314E30C95000F3868 = {
+			isa = PBXGroup;
+			children = (
+				01BA1AD414E77DC600CF9F84 /* Library */,
+				017EE12314E30C96000F3868 /* KeenClient */,
+				3EE9A72D1C59873F00B7B2D9 /* KeenClientFramework */,
+				017EE13714E30C96000F3868 /* KeenClientTests */,
+				017EE11F14E30C96000F3868 /* Products */,
+				4854B8E81EE627E20033D8D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		017EE11F14E30C96000F3868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				017EE11E14E30C96000F3868 /* libKeenClient.a */,
+				017EE12E14E30C96000F3868 /* KeenClientTests.xctest */,
+				1296396319C10AD200B2B653 /* libKeenClient-Cocoa.a */,
+				3EE9A72C1C59873F00B7B2D9 /* KeenClient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		017EE12314E30C96000F3868 /* KeenClient */ = {
+			isa = PBXGroup;
+			children = (
+				487715091EDF474F00012B0B /* KIODefaultNSURLSessionFactory.m */,
+				4877150A1EDF474F00012B0B /* KIODefaultNSURLSessionFactory.h */,
+				4877150B1EDF474F00012B0B /* KIONSURLSessionFactory.h */,
+				A51E31221B03C6EF00008248 /* HTTPCodes.h */,
+				A51E31231B03C6EF00008248 /* HTTPCodes.m */,
+				017EE12614E30C96000F3868 /* KeenClient.h */,
+				017EE12714E30C96000F3868 /* KeenClient.m */,
+				486B59501EB24E6900D5251D /* KeenClientConfig.h */,
+				486B59511EB24E6900D5251D /* KeenClientConfig.m */,
+				01BA1B0314E895BC00CF9F84 /* KeenConstants.h */,
+				01BA1B0414E895BC00CF9F84 /* KeenConstants.m */,
+				012E8A541672B9A90021F6FA /* KeenProperties.h */,
+				012E8A551672B9A90021F6FA /* KeenProperties.m */,
+				CA6410D618E37E7C00E53E3C /* KIODBStore.h */,
+				CA6410D718E37E7C00E53E3C /* KIODBStore.m */,
+				CACE78C918EA0CD800A4AB5B /* KIODBStorePrivate.h */,
+				48AC67C91E83364100E9C0A9 /* KIOFileStore.h */,
+				48AC67CA1E83364100E9C0A9 /* KIOFileStore.m */,
+				48AC67D41E833C2D00E9C0A9 /* KIONetwork.h */,
+				48AC67D51E833C2D00E9C0A9 /* KIONetwork.m */,
+				3E63D9EE1AE7356C00E57A17 /* KIOQuery.h */,
+				3E63D9EF1AE7356C00E57A17 /* KIOQuery.m */,
+				48AC67DC1E8348BA00E9C0A9 /* KIOUploader.h */,
+				48AC67DD1E8348BA00E9C0A9 /* KIOUploader.m */,
+				480FEB6F1E846F7500641112 /* KIOUtil.h */,
+				480FEB701E846F7500641112 /* KIOUtil.m */,
+				481A9B791E568FC10094B985 /* Logging */,
+				017EE12414E30C96000F3868 /* Supporting Files */,
+			);
+			path = KeenClient;
+			sourceTree = "<group>";
+		};
+		017EE12414E30C96000F3868 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				017EE12514E30C96000F3868 /* KeenClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		017EE13714E30C96000F3868 /* KeenClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				48E9F0D11EC25A1D009A1BF8 /* Tests */,
+				48E9F0D01EC259F0009A1BF8 /* Shared */,
+				482CB31C1E552F5300FCFACF /* corrupt.sqlite */,
+				017EE13814E30C96000F3868 /* Supporting Files */,
+			);
+			path = KeenClientTests;
+			sourceTree = "<group>";
+		};
+		017EE13814E30C96000F3868 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				017EE13914E30C96000F3868 /* KeenClientTests-Info.plist */,
+				017EE13A14E30C96000F3868 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01BA1AD414E77DC600CF9F84 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F4D3B5FF1A0D8EB4000825FE /* Reachability */,
+				DE6955781951FBCC0044D2C4 /* sqlite-amalgamation */,
+				015D30821822E8D200F8735B /* Headers */,
+				3E1EA1E21C49A07000111153 /* libOCMock.a */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		3EE9A72D1C59873F00B7B2D9 /* KeenClientFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3EE9A7301C59873F00B7B2D9 /* Info.plist */,
+				3EE9A72E1C59873F00B7B2D9 /* KeenClientFramework.h */,
+			);
+			path = KeenClientFramework;
+			sourceTree = "<group>";
+		};
+		481A9B791E568FC10094B985 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				48583E051E58CDE2002CFD99 /* KeenLogger.h */,
+				48583E061E58CDE2002CFD99 /* KeenLogger.m */,
+				481A9B711E5687EA0094B985 /* KeenLogSink.h */,
+				481A9B7A1E5690950094B985 /* KeenLogSinkNSLog.h */,
+				481A9B7B1E5690950094B985 /* KeenLogSinkNSLog.m */,
+			);
+			name = Logging;
+			sourceTree = "<group>";
+		};
+		4854B8E81EE627E20033D8D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4854B8E91EE627E20033D8D9 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48E9F0D01EC259F0009A1BF8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				486B596F1EB29B7100D5251D /* KeenClientTestable.h */,
+				486B596C1EB29B0A00D5251D /* KeenTestCaseBase.h */,
+				486B596D1EB29B0A00D5251D /* KeenTestCaseBase.m */,
+				486B59771EB29DD400D5251D /* KeenTestConstants.h */,
+				486B59751EB29DC500D5251D /* KeenTestConstants.m */,
+				486B59721EB29D2B00D5251D /* KeenTestUtils.h */,
+				486B59731EB29D2B00D5251D /* KeenTestUtils.m */,
+				48E9F0C31EC24CA8009A1BF8 /* KIODBStoreTestable.h */,
+				486B59701EB29C2500D5251D /* KIONetworkTestable.h */,
+				486B59711EB29C5200D5251D /* KIOUploaderTestable.h */,
+				4888924B1EC13C21008C6024 /* TestDatabaseRequirement.h */,
+				4888924C1EC13C21008C6024 /* TestDatabaseRequirement.m */,
+				481794721EE8F66500586007 /* MockNSURLSession.h */,
+				481794731EE8F66500586007 /* MockNSURLSession.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		48E9F0D11EC25A1D009A1BF8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				48CAA1791ED609F8003C2008 /* DatasetResponseBody.json */,
+				48E9F0C41EC255D1009A1BF8 /* FileStoreMigrationTests.h */,
+				48E9F0C51EC255D1009A1BF8 /* FileStoreMigrationTests.m */,
+				48E9F0C71EC2563F009A1BF8 /* GlobalPropertiesTests.h */,
+				48E9F0C81EC2563F009A1BF8 /* GlobalPropertiesTests.m */,
+				017EE13D14E30C96000F3868 /* KeenClientTests.h */,
+				017EE13E14E30C96000F3868 /* KeenClientTests.m */,
+				488892421EC12D06008C6024 /* KeenEventTests.h */,
+				488892431EC12D06008C6024 /* KeenEventTests.m */,
+				488892481EC12E81008C6024 /* KeenGeoLocationTests.h */,
+				488892491EC12E81008C6024 /* KeenGeoLocationTests.m */,
+				48583E0D1E5904FD002CFD99 /* KeenLoggerTests.h */,
+				48583E0E1E5904FD002CFD99 /* KeenLoggerTests.m */,
+				CA6410E018E39F3A00E53E3C /* KIODBStoreTests.h */,
+				CA6410E118E39F3A00E53E3C /* KIODBStoreTests.m */,
+				3E63D9F51AE7425000E57A17 /* KIOQueryTests.h */,
+				3E63D9F61AE7425000E57A17 /* KIOQueryTests.m */,
+				48E9F0CD1EC257BC009A1BF8 /* QueryTests.h */,
+				48E9F0CE1EC257BC009A1BF8 /* QueryTests.m */,
+				48E9F0CA1EC25719009A1BF8 /* SdkTrackingHeaderTests.h */,
+				48E9F0CB1EC25719009A1BF8 /* SdkTrackingHeaderTests.m */,
+				481496EA1EC3832C00A9DEED /* SavedQueryTests.h */,
+				481496EB1EC3832C00A9DEED /* SavedQueryTests.m */,
+				48CAA1761ED60792003C2008 /* DatasetTests.h */,
+				48CAA1771ED60792003C2008 /* DatasetTests.m */,
+				484BAC6C1EF1F763004FFB94 /* KIONetworkTests.h */,
+				484BAC6D1EF1F763004FFB94 /* KIONetworkTests.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		DE6955781951FBCC0044D2C4 /* sqlite-amalgamation */ = {
+			isa = PBXGroup;
+			children = (
+				DE34F6F0197586EE00051390 /* keen_io_sqlite3.c */,
+				DE34F6F1197586EE00051390 /* keen_io_sqlite3.h */,
+				DE34F6F2197586EE00051390 /* keen_io_sqlite3ext.h */,
+			);
+			path = "sqlite-amalgamation";
+			sourceTree = "<group>";
+		};
+		F4D3B5FF1A0D8EB4000825FE /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				F4D3B6001A0D8EB4000825FE /* KIOReachability.h */,
+				F4D3B6011A0D8EB4000825FE /* KIOReachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		017EE11C14E30C96000F3868 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480FEB711E846F7500641112 /* KIOUtil.h in Headers */,
+				48AC67CB1E83364100E9C0A9 /* KIOFileStore.h in Headers */,
+				0105EE9A14E9A9C80048D871 /* KeenClient.h in Headers */,
+				48583E071E58CDE2002CFD99 /* KeenLogger.h in Headers */,
+				48AC67DE1E8348BA00E9C0A9 /* KIOUploader.h in Headers */,
+				012E8A561672B9A90021F6FA /* KeenProperties.h in Headers */,
+				CA6410D818E37E7C00E53E3C /* KIODBStore.h in Headers */,
+				48AC67D61E833C2D00E9C0A9 /* KIONetwork.h in Headers */,
+				A51E31241B03C6EF00008248 /* HTTPCodes.h in Headers */,
+				F4D3B6021A0D8EB4000825FE /* KIOReachability.h in Headers */,
+				486B59521EB24E6900D5251D /* KeenClientConfig.h in Headers */,
+				3E63D9F01AE7356C00E57A17 /* KIOQuery.h in Headers */,
+				481A9B7E1E5691270094B985 /* KeenLogSink.h in Headers */,
+				DE34F6F6197586EE00051390 /* keen_io_sqlite3.h in Headers */,
+				DE34F6F9197586EE00051390 /* keen_io_sqlite3ext.h in Headers */,
+				01BA1B0514E895BC00CF9F84 /* KeenConstants.h in Headers */,
+				481A9B7C1E5690950094B985 /* KeenLogSinkNSLog.h in Headers */,
+				4877150D1EDF474F00012B0B /* KIODefaultNSURLSessionFactory.h in Headers */,
+				4877150E1EDF474F00012B0B /* KIONSURLSessionFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1296396119C10AD200B2B653 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480FEB721E846F7500641112 /* KIOUtil.h in Headers */,
+				48AC67CC1E83364100E9C0A9 /* KIOFileStore.h in Headers */,
+				486B59531EB24E6900D5251D /* KeenClientConfig.h in Headers */,
+				1296399019C10D0000B2B653 /* KeenClient.h in Headers */,
+				48AC67DF1E8348BA00E9C0A9 /* KIOUploader.h in Headers */,
+				1296399119C10D0000B2B653 /* KeenProperties.h in Headers */,
+				FA4A14EA1EC6298D0002E6CC /* KeenLogger.h in Headers */,
+				1296399319C10D0000B2B653 /* KIODBStore.h in Headers */,
+				48AC67D71E833C2D00E9C0A9 /* KIONetwork.h in Headers */,
+				125D31A91B0E335300DFCC97 /* HTTPCodes.h in Headers */,
+				48CA6C3A1EDF5FC50021C6F9 /* KIODefaultNSURLSessionFactory.h in Headers */,
+				48CA6C3B1EDF5FC50021C6F9 /* KIONSURLSessionFactory.h in Headers */,
+				F4D3B6051A0D8EB4000825FE /* KIOReachability.h in Headers */,
+				12AE4C3C1B4AD2880015F41F /* KIOQuery.h in Headers */,
+				FA4A14E91EC6298A0002E6CC /* KeenLogSinkNSLog.h in Headers */,
+				1296398E19C10D0000B2B653 /* keen_io_sqlite3.h in Headers */,
+				FA4A14E51EC629860002E6CC /* KeenLogSink.h in Headers */,
+				1296398F19C10D0000B2B653 /* keen_io_sqlite3ext.h in Headers */,
+				1296399219C10D0000B2B653 /* KeenConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE9A7291C59873F00B7B2D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE9A72F1C59873F00B7B2D9 /* KeenClientFramework.h in Headers */,
+				3EE9A73F1C5988F100B7B2D9 /* KIOReachability.h in Headers */,
+				3EE9A7421C5988F100B7B2D9 /* HTTPCodes.h in Headers */,
+				48AC67D81E833C2D00E9C0A9 /* KIONetwork.h in Headers */,
+				3EE9A7431C5988F100B7B2D9 /* KeenClient.h in Headers */,
+				FA4A14CD1EC623740002E6CC /* KeenLogSinkNSLog.h in Headers */,
+				48AC67CD1E83364100E9C0A9 /* KIOFileStore.h in Headers */,
+				3EE9A7441C5988F100B7B2D9 /* KeenProperties.h in Headers */,
+				486B59541EB24E6900D5251D /* KeenClientConfig.h in Headers */,
+				48AC67E01E8348BA00E9C0A9 /* KIOUploader.h in Headers */,
+				3EE9A7461C5988F100B7B2D9 /* KIODBStore.h in Headers */,
+				48CA6C3C1EDF5FD70021C6F9 /* KIODefaultNSURLSessionFactory.h in Headers */,
+				48CA6C3D1EDF5FD70021C6F9 /* KIONSURLSessionFactory.h in Headers */,
+				3EE9A7471C5988F100B7B2D9 /* KIOQuery.h in Headers */,
+				480FEB731E846F7500641112 /* KIOUtil.h in Headers */,
+				3EE9A7401C5988F100B7B2D9 /* keen_io_sqlite3.h in Headers */,
+				FA4A14CE1EC623760002E6CC /* KeenLogSink.h in Headers */,
+				3EE9A7411C5988F100B7B2D9 /* keen_io_sqlite3ext.h in Headers */,
+				FA4A14C91EC6236F0002E6CC /* KeenLogger.h in Headers */,
+				3EE9A7451C5988F100B7B2D9 /* KeenConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		017EE11D14E30C96000F3868 /* KeenClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017EE14214E30C96000F3868 /* Build configuration list for PBXNativeTarget "KeenClient" */;
+			buildPhases = (
+				017EE11A14E30C96000F3868 /* Sources */,
+				017EE11B14E30C96000F3868 /* Frameworks */,
+				017EE11C14E30C96000F3868 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeenClient;
+			productName = KeenClient;
+			productReference = 017EE11E14E30C96000F3868 /* libKeenClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		017EE12D14E30C96000F3868 /* KeenClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017EE14514E30C96000F3868 /* Build configuration list for PBXNativeTarget "KeenClientTests" */;
+			buildPhases = (
+				017EE12914E30C96000F3868 /* Sources */,
+				017EE12A14E30C96000F3868 /* Frameworks */,
+				017EE12B14E30C96000F3868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				017EE13514E30C96000F3868 /* PBXTargetDependency */,
+			);
+			name = KeenClientTests;
+			productName = KeenClientTests;
+			productReference = 017EE12E14E30C96000F3868 /* KeenClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1296396219C10AD200B2B653 /* KeenClient-Cocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1296398819C10AD200B2B653 /* Build configuration list for PBXNativeTarget "KeenClient-Cocoa" */;
+			buildPhases = (
+				1296395F19C10AD200B2B653 /* Sources */,
+				1296396019C10AD200B2B653 /* Frameworks */,
+				1296396119C10AD200B2B653 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeenClient-Cocoa";
+			productName = "KeenClient-Cocoa";
+			productReference = 1296396319C10AD200B2B653 /* libKeenClient-Cocoa.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3EE9A72B1C59873F00B7B2D9 /* KeenClientFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE9A7361C59873F00B7B2D9 /* Build configuration list for PBXNativeTarget "KeenClientFramework" */;
+			buildPhases = (
+				3EE9A7271C59873F00B7B2D9 /* Sources */,
+				3EE9A7281C59873F00B7B2D9 /* Frameworks */,
+				3EE9A7291C59873F00B7B2D9 /* Headers */,
+				3EE9A72A1C59873F00B7B2D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeenClientFramework;
+			productName = KeenClientFramework;
+			productReference = 3EE9A72C1C59873F00B7B2D9 /* KeenClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		017EE11514E30C95000F3868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastTestingUpgradeCheck = 0610;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Keen Labs";
+				TargetAttributes = {
+					017EE12D14E30C96000F3868 = {
+						TestTargetID = 017EE11D14E30C96000F3868;
+					};
+					3EE9A72B1C59873F00B7B2D9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 017EE11814E30C95000F3868 /* Build configuration list for PBXProject "KeenClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 017EE11314E30C95000F3868;
+			productRefGroup = 017EE11F14E30C96000F3868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				017EE11D14E30C96000F3868 /* KeenClient */,
+				1296396219C10AD200B2B653 /* KeenClient-Cocoa */,
+				0111015614EF71FB009794A5 /* KeenClient-Aggregate */,
+				017EE12D14E30C96000F3868 /* KeenClientTests */,
+				3EE9A72B1C59873F00B7B2D9 /* KeenClientFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		017EE12B14E30C96000F3868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017EE13C14E30C96000F3868 /* InfoPlist.strings in Resources */,
+				482CB31D1E552F5300FCFACF /* corrupt.sqlite in Resources */,
+				48CAA17A1ED609F8003C2008 /* DatasetResponseBody.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE9A72A1C59873F00B7B2D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0111015A14EF720D009794A5 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder\nexport UNIVERSAL_OUTPUT_FOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\nexport UNIVERSAL_OUTPUT_FOLDER_IOS=${UNIVERSAL_OUTPUT_FOLDER}/iOS\nexport UNIVERSAL_OUTPUT_FOLDER_COCOA=${UNIVERSAL_OUTPUT_FOLDER}/Cocoa\n\n# clean previous output, if any\nrm -rf ${UNIVERSAL_OUTPUT_FOLDER}\n\n# make sure the output folder exists\nmkdir -p ${UNIVERSAL_OUTPUT_FOLDER_IOS}\nmkdir -p ${UNIVERSAL_OUTPUT_FOLDER_COCOA}\n\n# build for device and simulator\nxcodebuild -target KeenClient ONLY_ACTIVE_ARCH=NO OTHER_CFLAGS=\"-fembed-bitcode-marker\" -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\nxcodebuild -target KeenClient ONLY_ACTIVE_ARCH=NO OTHER_CFLAGS=\"-fembed-bitcode\" -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# create universal/fat binary\nlipo -create \"${BUILT_PRODUCTS_DIR}/../${CONFIGURATION}-iphonesimulator/libKeenClient.a\" \"${BUILT_PRODUCTS_DIR}/../${CONFIGURATION}-iphoneos/libKeenClient.a\" -output \"${UNIVERSAL_OUTPUT_FOLDER_IOS}/lib${PROJECT_NAME}-Aggregate.a\"\n\n# copy Cocoa binary\ncp -r \"${BUILD_DIR}/${CONFIGURATION}/libKeenClient-Cocoa.a\" ${UNIVERSAL_OUTPUT_FOLDER_COCOA}\n\n# copy the header files\nmkdir -p ${UNIVERSAL_OUTPUT_FOLDER_IOS}/include\nrsync -r --exclude=\"/keen_io_sqlite*\" ${BUILT_PRODUCTS_DIR}/usr/local/include/ ${UNIVERSAL_OUTPUT_FOLDER_IOS}/include\n\nmkdir -p ${UNIVERSAL_OUTPUT_FOLDER_COCOA}/include\nrsync -r --exclude=\"/keen_io_sqlite*\" ${BUILT_PRODUCTS_DIR}/usr/local/include/ ${UNIVERSAL_OUTPUT_FOLDER_COCOA}/include\n\n# zip everything up\ncd ${UNIVERSAL_OUTPUT_FOLDER_IOS}\nzip -r \"${UNIVERSAL_OUTPUT_FOLDER}/${PROJECT_NAME}.zip\" *\n\ncd ${UNIVERSAL_OUTPUT_FOLDER_COCOA}\nzip -r \"${UNIVERSAL_OUTPUT_FOLDER}/${PROJECT_NAME}-Cocoa.zip\" *";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		017EE11A14E30C96000F3868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481A9B7D1E5690950094B985 /* KeenLogSinkNSLog.m in Sources */,
+				48AC67E11E8348BA00E9C0A9 /* KIOUploader.m in Sources */,
+				4877150C1EDF474F00012B0B /* KIODefaultNSURLSessionFactory.m in Sources */,
+				486B59551EB24E6900D5251D /* KeenClientConfig.m in Sources */,
+				48AC67D91E833C2D00E9C0A9 /* KIONetwork.m in Sources */,
+				3E63D9F11AE7356C00E57A17 /* KIOQuery.m in Sources */,
+				017EE12814E30C96000F3868 /* KeenClient.m in Sources */,
+				01BA1B0614E895BC00CF9F84 /* KeenConstants.m in Sources */,
+				CA6410D918E37E7C00E53E3C /* KIODBStore.m in Sources */,
+				012E8A571672B9A90021F6FA /* KeenProperties.m in Sources */,
+				F4D3B6061A0D8EB4000825FE /* KIOReachability.m in Sources */,
+				48AC67CE1E83364100E9C0A9 /* KIOFileStore.m in Sources */,
+				480FEB741E846F7500641112 /* KIOUtil.m in Sources */,
+				A51E31251B03C6EF00008248 /* HTTPCodes.m in Sources */,
+				48583E081E58CDE2002CFD99 /* KeenLogger.m in Sources */,
+				DE34F6F3197586EE00051390 /* keen_io_sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		017EE12914E30C96000F3868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481794741EE8F66500586007 /* MockNSURLSession.m in Sources */,
+				CA6410E218E39F3A00E53E3C /* KIODBStoreTests.m in Sources */,
+				486B596E1EB29B0A00D5251D /* KeenTestCaseBase.m in Sources */,
+				48CAA1781ED60792003C2008 /* DatasetTests.m in Sources */,
+				48E9F0C61EC255D1009A1BF8 /* FileStoreMigrationTests.m in Sources */,
+				3E63D9F71AE7425000E57A17 /* KIOQueryTests.m in Sources */,
+				48E9F0CC1EC25719009A1BF8 /* SdkTrackingHeaderTests.m in Sources */,
+				4888924A1EC12E81008C6024 /* KeenGeoLocationTests.m in Sources */,
+				486B59741EB29D2B00D5251D /* KeenTestUtils.m in Sources */,
+				48583E0F1E5904FD002CFD99 /* KeenLoggerTests.m in Sources */,
+				484BAC6E1EF1F763004FFB94 /* KIONetworkTests.m in Sources */,
+				481496EC1EC3832C00A9DEED /* SavedQueryTests.m in Sources */,
+				4888924D1EC13C21008C6024 /* TestDatabaseRequirement.m in Sources */,
+				48E9F0CF1EC257BC009A1BF8 /* QueryTests.m in Sources */,
+				017EE13F14E30C96000F3868 /* KeenClientTests.m in Sources */,
+				488892441EC12D06008C6024 /* KeenEventTests.m in Sources */,
+				486B59761EB29DC500D5251D /* KeenTestConstants.m in Sources */,
+				48E9F0C91EC2563F009A1BF8 /* GlobalPropertiesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1296395F19C10AD200B2B653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487715111EDF4FF100012B0B /* KeenLogger.m in Sources */,
+				487715101EDF4FB400012B0B /* KeenLogSinkNSLog.m in Sources */,
+				4877150F1EDF4FA300012B0B /* KIODefaultNSURLSessionFactory.m in Sources */,
+				48AC67E21E8348BA00E9C0A9 /* KIOUploader.m in Sources */,
+				48AC67DA1E833C2D00E9C0A9 /* KIONetwork.m in Sources */,
+				12AE4C3F1B4AD2AD0015F41F /* KIOQuery.m in Sources */,
+				125D31A81B0E334D00DFCC97 /* HTTPCodes.m in Sources */,
+				1296399819C10D4000B2B653 /* keen_io_sqlite3.c in Sources */,
+				1296399419C10D2C00B2B653 /* KeenClient.m in Sources */,
+				1296399519C10D2C00B2B653 /* KeenProperties.m in Sources */,
+				1296399619C10D2C00B2B653 /* KeenConstants.m in Sources */,
+				48AC67CF1E83364100E9C0A9 /* KIOFileStore.m in Sources */,
+				480FEB751E846F7500641112 /* KIOUtil.m in Sources */,
+				F4D3B60A1A0D8EB4000825FE /* KIOReachability.m in Sources */,
+				486B59561EB24E6900D5251D /* KeenClientConfig.m in Sources */,
+				1296399719C10D2C00B2B653 /* KIODBStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE9A7271C59873F00B7B2D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487715121EDF535D00012B0B /* KIODefaultNSURLSessionFactory.m in Sources */,
+				48472CA91E9C52D700DB3B41 /* KeenLogSinkNSLog.m in Sources */,
+				48472CA51E9C526400DB3B41 /* KeenLogger.m in Sources */,
+				486B59581EB24E6900D5251D /* KeenClientConfig.m in Sources */,
+				48AC67E31E8348BA00E9C0A9 /* KIOUploader.m in Sources */,
+				48AC67DB1E833C2D00E9C0A9 /* KIONetwork.m in Sources */,
+				3EE9A7371C5988D200B7B2D9 /* KIOReachability.m in Sources */,
+				3EE9A7381C5988D200B7B2D9 /* keen_io_sqlite3.c in Sources */,
+				3EE9A7391C5988D200B7B2D9 /* HTTPCodes.m in Sources */,
+				3EE9A73A1C5988D200B7B2D9 /* KeenClient.m in Sources */,
+				3EE9A73B1C5988D200B7B2D9 /* KeenProperties.m in Sources */,
+				3EE9A73C1C5988D200B7B2D9 /* KeenConstants.m in Sources */,
+				48AC67D01E83364100E9C0A9 /* KIOFileStore.m in Sources */,
+				480FEB761E846F7500641112 /* KIOUtil.m in Sources */,
+				3EE9A73D1C5988D200B7B2D9 /* KIODBStore.m in Sources */,
+				3EE9A73E1C5988D200B7B2D9 /* KIOQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		017EE13514E30C96000F3868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 017EE11D14E30C96000F3868 /* KeenClient */;
+			targetProxy = 017EE13414E30C96000F3868 /* PBXContainerItemProxy */;
+		};
+		1296398B19C10B4500B2B653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1296396219C10AD200B2B653 /* KeenClient-Cocoa */;
+			targetProxy = 1296398A19C10B4500B2B653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		017EE13A14E30C96000F3868 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017EE13B14E30C96000F3868 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0111015814EF71FB009794A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0111015914EF71FB009794A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		017EE14014E30C96000F3868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		017EE14114E30C96000F3868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		017EE14314E30C96000F3868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/KeenClient.dst;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/KeenClient/KeenClient-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "$(inherited)";
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Library\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		017EE14414E30C96000F3868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/KeenClient.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/KeenClient/KeenClient-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Library\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		017EE14614E30C96000F3868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/KeenClient/KeenClient-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"KEEN_DEBUG=1",
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "$(inherited)";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/**";
+				INFOPLIST_FILE = "KeenClientTests/KeenClientTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Library",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.keen.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WARNING_CFLAGS = "";
+			};
+			name = Debug;
+		};
+		017EE14714E30C96000F3868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/KeenClient/KeenClient-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/**";
+				INFOPLIST_FILE = "KeenClientTests/KeenClientTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Library",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.keen.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+		1296398319C10AD200B2B653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1296398419C10AD200B2B653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3EE9A7311C59873F00B7B2D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = KeenClientFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/Framework/KeenClientFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keenLabs.KeenClient;
+				PRODUCT_NAME = KeenClient;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EE9A7321C59873F00B7B2D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = KeenClientFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/Framework/KeenClientFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keenLabs.KeenClient;
+				PRODUCT_NAME = KeenClient;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0111015714EF71FB009794A5 /* Build configuration list for PBXAggregateTarget "KeenClient-Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0111015814EF71FB009794A5 /* Debug */,
+				0111015914EF71FB009794A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017EE11814E30C95000F3868 /* Build configuration list for PBXProject "KeenClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017EE14014E30C96000F3868 /* Debug */,
+				017EE14114E30C96000F3868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017EE14214E30C96000F3868 /* Build configuration list for PBXNativeTarget "KeenClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017EE14314E30C96000F3868 /* Debug */,
+				017EE14414E30C96000F3868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017EE14514E30C96000F3868 /* Build configuration list for PBXNativeTarget "KeenClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017EE14614E30C96000F3868 /* Debug */,
+				017EE14714E30C96000F3868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1296398819C10AD200B2B653 /* Build configuration list for PBXNativeTarget "KeenClient-Cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1296398319C10AD200B2B653 /* Debug */,
+				1296398419C10AD200B2B653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE9A7361C59873F00B7B2D9 /* Build configuration list for PBXNativeTarget "KeenClientFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE9A7311C59873F00B7B2D9 /* Debug */,
+				3EE9A7321C59873F00B7B2D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 017EE11514E30C95000F3868 /* Project object */;
+}

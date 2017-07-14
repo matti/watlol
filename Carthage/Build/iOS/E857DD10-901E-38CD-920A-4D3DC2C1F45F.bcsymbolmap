@@ -1,0 +1,3259 @@
+BCSymbolMap Version: 2.0
+-[KIODefaultNSURLSessionFactory sessionWithConfiguration:]
+-[KIODefaultNSURLSessionFactory session]
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_KIONSURLSessionFactory
+l_OBJC_LABEL_PROTOCOL_$_KIONSURLSessionFactory
+Apple LLVM version 8.1.0 (clang-802.0.42)
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KIODefaultNSURLSessionFactory.m
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS
+-[KeenLogSinkNSLog logMessageWithLevel:andMessage:]
+-[KeenLogSinkNSLog onRemoved]
+l_OBJC_PROTOCOL_$_KeenLogSink
+l_OBJC_LABEL_PROTOCOL_$_KeenLogSink
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KeenLogSinkNSLog.m
++[KeenLogger sharedLogger]
+___26+[KeenLogger sharedLogger]_block_invoke
+-[KeenLogger init]
+-[KeenLogger disableLogging]
+___28-[KeenLogger disableLogging]_block_invoke
+-[KeenLogger enableLogging]
+___27-[KeenLogger enableLogging]_block_invoke
+-[KeenLogger setIsNSLogEnabled:]
+___32-[KeenLogger setIsNSLogEnabled:]_block_invoke
+-[KeenLogger isNSLogEnabled]
+-[KeenLogger isLoggingEnabled]
+-[KeenLogger setLogLevel:]
+___26-[KeenLogger setLogLevel:]_block_invoke
+-[KeenLogger addLogSink:]
+___25-[KeenLogger addLogSink:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[KeenLogger removeLogSink:]
+___28-[KeenLogger removeLogSink:]_block_invoke
+___copy_helper_block_.28
+___destroy_helper_block_.29
+-[KeenLogger logMessageWithLevel:andMessage:]
+___45-[KeenLogger logMessageWithLevel:andMessage:]_block_invoke
+___copy_helper_block_.35
+___destroy_helper_block_.36
+_sharedLogger.s_logger
+_sharedLogger.predicate
+___block_descriptor_tmp
+___block_literal_global
+___block_descriptor_tmp.9
+___block_literal_global.10
+___block_descriptor_tmp.11
+___block_literal_global.12
+___block_descriptor_tmp.22
+___block_descriptor_tmp.24
+___block_descriptor_tmp.25
+___block_descriptor_tmp.30
+___block_descriptor_tmp.37
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KeenLogger.m
+__destroy_helper_block_
+__copy_helper_block_
+__45-[KeenLogger logMessageWithLevel:andMessage:]_block_invoke
+__28-[KeenLogger removeLogSink:]_block_invoke
+__25-[KeenLogger addLogSink:]_block_invoke
+__26-[KeenLogger setLogLevel:]_block_invoke
+__32-[KeenLogger setIsNSLogEnabled:]_block_invoke
+__27-[KeenLogger enableLogging]_block_invoke
+__28-[KeenLogger disableLogging]_block_invoke
+__26+[KeenLogger sharedLogger]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/include/dispatch/once.h
+-[KeenClientConfig initWithProjectID:andWriteKey:andReadKey:]
+-[KeenClientConfig initWithProjectID:andWriteKey:andReadKey:apiUrlAuthority:]
+-[KeenClientConfig projectID]
+-[KeenClientConfig setProjectID:]
+-[KeenClientConfig writeKey]
+-[KeenClientConfig setWriteKey:]
+-[KeenClientConfig readKey]
+-[KeenClientConfig setReadKey:]
+-[KeenClientConfig apiUrlAuthority]
+-[KeenClientConfig setApiUrlAuthority:]
+-[KeenClientConfig .cxx_destruct]
+_OBJC_IVAR_$_KeenClientConfig._projectID
+_OBJC_IVAR_$_KeenClientConfig._writeKey
+_OBJC_IVAR_$_KeenClientConfig._readKey
+_OBJC_IVAR_$_KeenClientConfig._apiUrlAuthority
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KeenClientConfig.m
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KeenClientConfig.h
++[KIOUploader sharedInstance]
+___29+[KIOUploader sharedInstance]_block_invoke
+-[KIOUploader initWithNetwork:andStore:]
+-[KIOUploader prepareJSONData:andEventIDs:forProjectID:]
+-[KIOUploader isNetworkConnected]
+-[KIOUploader uploadEventsForConfig:completionHandler:]
+___55-[KIOUploader uploadEventsForConfig:completionHandler:]_block_invoke
+___55-[KIOUploader uploadEventsForConfig:completionHandler:]_block_invoke_2
+___copy_helper_block_.114
+___destroy_helper_block_.115
+-[KIOUploader runUploadFinishedBlock:]
+-[KIOUploader handleEventAPIResponse:andData:forEvents:]
+-[KIOUploader maxEventUploadAttempts]
+-[KIOUploader setMaxEventUploadAttempts:]
+-[KIOUploader uploadQueue]
+-[KIOUploader setUploadQueue:]
+-[KIOUploader store]
+-[KIOUploader setStore:]
+-[KIOUploader network]
+-[KIOUploader setNetwork:]
+-[KIOUploader isUploading]
+-[KIOUploader setIsUploading:]
+-[KIOUploader isUploadingCondition]
+-[KIOUploader setIsUploadingCondition:]
+-[KIOUploader .cxx_destruct]
+_sharedInstance.s_sharedInstance
+_sharedInstance.predicate
+___block_descriptor_tmp.104
+___block_descriptor_tmp.116
+_OBJC_IVAR_$_KIOUploader._maxEventUploadAttempts
+_OBJC_IVAR_$_KIOUploader._uploadQueue
+_OBJC_IVAR_$_KIOUploader._store
+_OBJC_IVAR_$_KIOUploader._network
+_OBJC_IVAR_$_KIOUploader._isUploading
+_OBJC_IVAR_$_KIOUploader._isUploadingCondition
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KIOUploader.m
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KIOUploader.h
+__55-[KIOUploader uploadEventsForConfig:completionHandler:]_block_invoke_2
+__55-[KIOUploader uploadEventsForConfig:completionHandler:]_block_invoke
+__29+[KIOUploader sharedInstance]_block_invoke
++[KIONetwork sharedInstance]
+___28+[KIONetwork sharedInstance]_block_invoke
+-[KIONetwork initWithURLSessionFactory:andStore:]
+-[KIONetwork setProxy:port:]
+-[KIONetwork createRequestWithUrl:andMethod:andBody:andKey:]
+-[KIONetwork executeRequest:completionHandler:]
+-[KIONetwork hasQueryReachedMaxAttempts:withProjectID:]
+-[KIONetwork getProjectURL:]
+-[KIONetwork sendEvents:config:completionHandler:]
+-[KIONetwork runQuery:config:completionHandler:]
+___48-[KIONetwork runQuery:config:completionHandler:]_block_invoke
+-[KIONetwork handleQueryAPIResponse:andData:andQuery:andProjectID:andError:]
+-[KIONetwork prepareQueriesDictionaryForMultiAnalysis:]
+-[KIONetwork runMultiAnalysisWithQueries:config:completionHandler:]
+-[KIONetwork runSavedAnalysis:config:completionHandler:]
+-[KIONetwork runDatasetQuery:indexValue:timeframe:config:completionHandler:]
+-[KIONetwork maxQueryAttempts]
+-[KIONetwork setMaxQueryAttempts:]
+-[KIONetwork queryTTL]
+-[KIONetwork setQueryTTL:]
+-[KIONetwork urlSession]
+-[KIONetwork proxyHost]
+-[KIONetwork setProxyHost:]
+-[KIONetwork proxyPort]
+-[KIONetwork setProxyPort:]
+-[KIONetwork urlSessionFactory]
+-[KIONetwork setUrlSessionFactory:]
+-[KIONetwork store]
+-[KIONetwork setStore:]
+-[KIONetwork .cxx_destruct]
+___block_descriptor_tmp.153
+_OBJC_IVAR_$_KIONetwork._maxQueryAttempts
+_OBJC_IVAR_$_KIONetwork._queryTTL
+_OBJC_IVAR_$_KIONetwork._urlSession
+_OBJC_IVAR_$_KIONetwork._proxyHost
+_OBJC_IVAR_$_KIONetwork._proxyPort
+_OBJC_IVAR_$_KIONetwork._urlSessionFactory
+_OBJC_IVAR_$_KIONetwork._store
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KIONetwork.m
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KIONetwork.h
+__48-[KIONetwork runQuery:config:completionHandler:]_block_invoke
+__28+[KIONetwork sharedInstance]_block_invoke
++[KIOReachability KIOreachabilityWithHostName:]
++[KIOReachability KIOreachabilityWithAddress:]
++[KIOReachability KIOreachabilityForInternetConnection]
++[KIOReachability KIOreachabilityForLocalWiFi]
+-[KIOReachability KIOstartNotifier]
+_KIOReachabilityCallback
+-[KIOReachability KIOstopNotifier]
+-[KIOReachability dealloc]
+-[KIOReachability KIOlocalWiFiStatusForFlags:]
+-[KIOReachability KIOnetworkStatusForFlags:]
+-[KIOReachability KIOconnectionRequired]
+-[KIOReachability KIOcurrentReachabilityStatus]
+_OBJC_IVAR_$_KIOReachability._reachabilityRef
+_OBJC_IVAR_$_KIOReachability._alwaysReturnLocalWiFiStatus
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/Library/Reachability/KIOReachability.m
+KIOReachabilityCallback
+_keen_io_sqlite3BtreeEnterAll
+_keen_io_sqlite3BtreeLeaveAll
+_keen_io_sqlite3MallocSize
+_keen_io_sqlite3DeleteTrigger
+_keen_io_sqlite3DeleteTable
+_keen_io_sqlite3VdbeClearObject
+_keen_io_sqlite3DbFree
+_vfsUnlink
+_keen_io_sqlite3MemoryAlarm
+_softHeapLimitEnforcer
+_keen_io_sqlite3Malloc
+_keen_io_sqlite3Realloc
+_keen_io_sqlite3VXPrintf
+_keen_io_sqlite3StrAccumFinish
+_unixOpen
+_unixDelete
+_unixAccess
+_unixFullPathname
+_unixDlOpen
+_unixDlError
+_unixDlSym
+_unixDlClose
+_unixRandomness
+_unixSleep
+_unixCurrentTime
+_unixGetLastError
+_unixCurrentTimeInt64
+_unixSetSystemCall
+_unixGetSystemCall
+_unixNextSystemCall
+_keen_io_sqlite3Error
+_keen_io_sqlite3MallocZero
+_findBtree
+_keen_io_sqlite3BtreeEnter
+_keen_io_sqlite3BtreeBeginTrans
+_keen_io_sqlite3BtreeGetMeta
+_keen_io_sqlite3PagerAcquire
+_backupOnePage
+_keen_io_sqlite3BtreeUpdateMeta
+_keen_io_sqlite3ResetAllSchemasOfConnection
+_keen_io_sqlite3BtreeSetVersion
+_keen_io_sqlite3PagerWrite
+_keen_io_sqlite3PagerCommitPhaseOne
+_keen_io_sqlite3PagerSync
+_keen_io_sqlite3BtreeCommitPhaseTwo
+_keen_io_sqlite3BtreeCommitPhaseOne
+_keen_io_sqlite3BtreeLeave
+_keen_io_sqlite3BtreeRollback
+_keen_io_sqlite3LeaveMutexAndCloseZombie
+_keen_io_sqlite3VdbeFinalize
+_keen_io_sqlite3ApiExit
+_keen_io_sqlite3VdbeReset
+_keen_io_sqlite3VdbeMemRelease
+_keen_io_sqlite3VdbeMemExpandBlob
+_keen_io_sqlite3ValueBytes
+_keen_io_sqlite3VdbeRealValue
+_keen_io_sqlite3VdbeIntValue
+_keen_io_sqlite3ValueText
+_setResultStrOrError
+_keen_io_sqlite3VdbeMemSetDouble
+_keen_io_sqlite3VdbeMemSetStr
+_keen_io_sqlite3VdbeMemSetNull
+_keen_io_sqlite3VdbeMemCopy
+_vdbeSafetyNotNull
+_keen_io_sqlite3DbStrDup
+_keen_io_sqlite3VdbeMemReleaseExternal
+_keen_io_sqlite3VdbeMemGrow
+_keen_io_sqlite3DbMallocZero
+_columnMem
+_columnMallocFailure
+_bindText
+_vdbeUnbind
+_keen_io_sqlite3VdbeParameterIndex
+_keen_io_sqlite3TransferBindings
+_applyNumericAffinity
+_keen_io_sqlite3DbMallocRaw
+_keen_io_sqlite3LocateTable
+_keen_io_sqlite3ErrorMsg
+_keen_io_sqlite3MPrintf
+_keen_io_sqlite3VdbeCreate
+_keen_io_sqlite3VdbeAddOpList
+_keen_io_sqlite3VdbeChangeP4
+_keen_io_sqlite3VdbeChangeToNoop
+_keen_io_sqlite3VdbeMakeReady
+_blobSeekToRow
+_keen_io_sqlite3ParserReset
+_blobReadWrite
+_keen_io_sqlite3BtreeData
+_keen_io_sqlite3BtreePutData
+_patternCompare
+_keen_io_sqlite3SafetyCheckOk
+_keen_io_sqlite3LockAndPrepare
+_keen_io_sqlite3Prepare16
+_keen_io_sqlite3_get_table_cb
+_createModule
+_keen_io_sqlite3RunParser
+_keen_io_sqlite3ValueFree
+_setupLookaside
+_keen_io_sqlite3Close
+_sqliteDefaultBusyCallback
+_keen_io_sqlite3CreateFunc
+_keen_io_sqlite3Utf16to8
+_keen_io_sqlite3FindFunction
+_keen_io_sqlite3InvalidFunction
+_keen_io_sqlite3WalDefaultHook
+_keen_io_sqlite3FindDbName
+_keen_io_sqlite3Checkpoint
+_openDatabase
+_createCollation
+_keen_io_sqlite3DbNameToBtree
+_keen_io_sqlite3BtreeSetPageSize
+_keen_io_sqlite3ScratchMalloc
+_keen_io_sqlite3ScratchFree
+_keen_io_sqlite3Atoi64
+_mallocWithAlarm
+_keen_io_sqlite3MallocAlarm
+_keen_io_sqlite3StrAccumAppend
+_getIntArg
+_getTextArg
+_keen_io_sqlite3AppendSpace
+_keen_io_sqlite3StrAccumEnlarge
+_keen_io_sqlite3StrAccumReset
+_keen_io_sqlite3DbRealloc
+_autolockIoFinderImpl
+_unixClose
+_unixRead
+_unixWrite
+_unixTruncate
+_unixSync
+_unixFileSize
+_unixLock
+_unixUnlock
+_unixCheckReservedLock
+_unixFileControl
+_unixSectorSize
+_unixDeviceCharacteristics
+_unixShmMap
+_unixShmLock
+_unixShmBarrier
+_unixShmUnmap
+_unixFetch
+_unixUnfetch
+_verifyDbFile
+_releaseInodeInfo
+_closeUnixFile
+_fileHasMoved
+_closePendingFds
+_robust_close
+_seekAndRead
+_seekAndWriteFd
+_unixFileLock
+_posixUnlock
+_unixModeBit
+_unixGetTempname
+_proxyTakeConch
+_proxyTransformUnixFile
+_proxyClose
+_proxyLock
+_proxyUnlock
+_proxyCheckReservedLock
+_proxyConchLock
+_robust_open
+_proxyCreateUnixFile
+_findReusableFd
+_fillInUnixFile
+_findInodeInfo
+_unixShmPurge
+_afpClose
+_afpLock
+_afpUnlock
+_afpCheckReservedLock
+_afpSetLock
+_nolockClose
+_nolockLock
+_nolockUnlock
+_nolockCheckReservedLock
+_posixOpen
+_openDirectory
+_posixFchown
+_unixGetpagesize
+_nfsUnlock
+_dotlockClose
+_dotlockLock
+_dotlockUnlock
+_dotlockCheckReservedLock
+_nolockIoFinderImpl
+_dotlockIoFinderImpl
+_posixIoFinderImpl
+_flockIoFinderImpl
+_flockClose
+_flockLock
+_flockUnlock
+_flockCheckReservedLock
+_robust_flock
+_afpIoFinderImpl
+_nfsIoFinderImpl
+_proxyIoFinderImpl
+_keen_io_sqlite3VMPrintf
+_keen_io_sqlite3OpenTempDatabase
+_keen_io_sqlite3BtreeOpen
+_pageReinit
+_btreeInvokeBusyHandler
+_keen_io_sqlite3PagerSetPagesize
+_keen_io_sqlite3PagerClose
+_setSectorSize
+_pagerStress
+_subjRequiresPage
+_subjournalPage
+_pagerWalFrames
+_syncJournal
+_pager_write_pagelist
+_keen_io_sqlite3PcacheMakeClean
+_keen_io_sqlite3BitvecTest
+_addToSavepointBitvecs
+_memjrnlClose
+_memjrnlRead
+_memjrnlWrite
+_memjrnlTruncate
+_memjrnlSync
+_memjrnlFileSize
+_keen_io_sqlite3BitvecSet
+_pager_write_changecounter
+_keen_io_sqlite3BackupUpdate
+_walChecksumBytes
+_walWriteOneFrame
+_walLimitSize
+_walIndexAppend
+_walIndexWriteHdr
+_walTryBeginRead
+_walIndexReadHdr
+_walIndexPage
+_walIndexTryHdr
+_walWriteToLog
+_walCleanupHash
+_keen_io_sqlite3PagerExclusiveLock
+_writeJournalHdr
+_pagerLockDb
+_pcacheRemoveFromDirtyList
+_btreeInitPage
+_decodeFlags
+_pager_reset
+_pcache1Alloc
+_keen_io_sqlite3PcacheTruncate
+_pcache1Free
+_keen_io_sqlite3WalClose
+_pager_unlock
+_pagerSyncHotJournal
+_pagerUnlockAndRollback
+_keen_io_sqlite3WalCheckpoint
+_walIndexClose
+_walMerge
+_keen_io_sqlite3BitvecDestroy
+_releaseAllSavepoints
+_keen_io_sqlite3WalEndReadTransaction
+_keen_io_sqlite3PagerRollback
+_pager_end_transaction
+_keen_io_sqlite3PagerSavepoint
+_pager_playback
+_pager_playback_one_page
+_readJournalHdr
+_keen_io_sqlite3WalUndo
+_pagerUndoCallback
+_keen_io_sqlite3PcacheDirtyList
+_keen_io_sqlite3PcacheDrop
+_keen_io_sqlite3WalFindFrame
+_readDbPage
+_keen_io_sqlite3PagerUnrefNotNull
+_keen_io_sqlite3PcacheFetch
+_keen_io_sqlite3PcacheRelease
+_pcacheAddToDirtyList
+_pcacheMergeDirtyList
+_read32bits
+_keen_io_sqlite3PcacheMakeDirty
+_readMasterJournal
+_pager_truncate
+_keen_io_sqlite3WalExclusiveMode
+_querySharedCacheTableLock
+_newDatabase
+_keen_io_sqlite3PagerOpenSavepoint
+_keen_io_sqlite3PagerSharedLock
+_btreeGetPage
+_keen_io_sqlite3PagerOpenWal
+_pagerPagecount
+_pagerOpenWal
+_pagerExclusiveLock
+_zeroPage
+_pager_write
+_btreeEndTransaction
+_finalDbSize
+_saveAllCursors
+_incrVacuumStep
+_btreeReleaseAllCursorPages
+_keen_io_sqlite3BtreeKeySize
+_btreeParseCellPtr
+_keen_io_sqlite3GetVarint32
+_keen_io_sqlite3GetVarint
+_accessPayload
+_copyPayload
+_getOverflowPage
+_ptrmapGet
+_allocateBtreePage
+_relocatePage
+_setChildPtrmaps
+_ptrmapPut
+_keen_io_sqlite3PcacheMove
+_keen_io_sqlite3BitvecClear
+_ptrmapPutOvflPtr
+_keen_io_sqlite3BtreeTripAllCursors
+_releaseMemArray
+_vdbeFreeOpArray
+_freeP4
+_keen_io_sqlite3VtabUnlock
+_keen_io_sqlite3VdbeDelete
+_keen_io_sqlite3VdbeHalt
+_keen_io_sqlite3VdbeTransferError
+_keen_io_sqlite3VdbeEnter
+_keen_io_sqlite3RollbackAll
+_keen_io_sqlite3CloseSavepoints
+_keen_io_sqlite3VdbeCheckFk
+_keen_io_sqlite3VdbeLeave
+_keen_io_sqlite3VdbeCloseStatement
+_keen_io_sqlite3VdbeFreeCursor
+_keen_io_sqlite3VdbeDeleteAuxData
+_keen_io_sqlite3BtreeClose
+_keen_io_sqlite3BtreeCloseCursor
+_keen_io_sqlite3VdbeSorterReset
+_vdbeSorterIterZero
+_callFinaliser
+_keen_io_sqlite3SetString
+_keen_io_sqlite3OsOpenMalloc
+_keen_io_sqlite3VtabImportErrmsg
+_keen_io_sqlite3BtreeSavepoint
+_keen_io_sqlite3VtabSavepoint
+_keen_io_sqlite3AtoF
+_keen_io_sqlite3VdbeChangeEncoding
+_keen_io_sqlite3VdbeMemMakeWriteable
+_keen_io_sqlite3VdbeMemNulTerminate
+_keen_io_sqlite3VdbeMemStringify
+_keen_io_sqlite3RowSetClear
+_keen_io_sqlite3OsCurrentTimeInt64
+_keen_io_sqlite3VdbeExec
+_keen_io_sqlite3VdbeMemShallowCopy
+_numericType
+_keen_io_sqlite3VdbeIntegerAffinity
+_applyAffinity
+_keen_io_sqlite3VdbeMemNumerify
+_keen_io_sqlite3MemCompare
+_keen_io_sqlite3VdbeCursorMoveto
+_keen_io_sqlite3BtreeDataSize
+_keen_io_sqlite3VdbeMemFromBtree
+_keen_io_sqlite3VdbeSerialGet
+_keen_io_sqlite3VdbeSerialType
+_keen_io_sqlite3PutVarint32
+_keen_io_sqlite3ResetOneSchema
+_allocateCursor
+_keen_io_sqlite3BtreeCursor
+_keen_io_sqlite3BtreeCreateTable
+_keen_io_sqlite3BtreeMovetoUnpacked
+_keen_io_sqlite3BtreeNext
+_keen_io_sqlite3BtreePrevious
+_keen_io_sqlite3VdbeAllocUnpackedRecord
+_keen_io_sqlite3VdbeRecordUnpack
+_keen_io_sqlite3BtreeLast
+_keen_io_sqlite3BtreeInsert
+_keen_io_sqlite3BtreeDelete
+_keen_io_sqlite3VdbeSorterNext
+_keen_io_sqlite3BtreeClearTable
+_keen_io_sqlite3InitCallback
+_keen_io_sqlite3AnalysisLoad
+_keen_io_sqlite3VdbeMemSetRowSet
+_keen_io_sqlite3RowSetInsert
+_keen_io_sqlite3VdbeMemFinalize
+_keen_io_sqlite3PagerSetJournalMode
+_vdbeCompareMemString
+_btreeRestoreCursorPosition
+_btreeMoveto
+_keen_io_sqlite3PutVarint
+_moveToRoot
+_moveToParent
+_moveToChild
+_getAndInitPage
+_keen_io_sqlite3SchemaClear
+_keen_io_sqlite3HashClear
+_vdbeRecordCompareInt
+_vdbeRecordCompareString
+_keen_io_sqlite3VdbeRecordCompare
+_moveToLeftmost
+_moveToRightmost
+_allocateTempSpace
+_cellSizePtr
+_clearCell
+_dropCell
+_insertCell
+_balance
+_btreePageLookup
+_freePage2
+_defragmentPage
+_copyNodeContent
+_assemblePage
+_vdbeSorterCompare
+_vdbeSorterSort
+_vdbeSorterListToPMA
+_fileWriterInit
+_fileWriterWrite
+_fileWriterFinish
+_vdbeSorterMerge
+_vdbeSorterIterVarint
+_vdbeSorterIterNext
+_vdbeSorterIterRead
+_keen_io_sqlite3DbReallocOrFree
+_clearDatabasePage
+_corruptSchema
+_keen_io_sqlite3FindIndex
+_keen_io_sqlite3GetInt32
+_keen_io_sqlite3MAppendf
+_keen_io_sqlite3HashFind
+_findElementGivenHash
+_keen_io_sqlite3DefaultRowEst
+_keen_io_sqlite3FindTable
+_analysisLoader
+_decodeIntArray
+_keen_io_sqlite3LogEst
+_keen_io_sqlite3HashInsert
+_insertElement
+_freeIndex
+_keen_io_sqlite3ExprDelete
+_keen_io_sqlite3SelectDelete
+_keen_io_sqlite3ExprListDelete
+_clearSelect
+_keen_io_sqlite3SrcListDelete
+_keen_io_sqlite3WithDelete
+_keen_io_sqlite3IdListDelete
+_tableOfTrigger
+_checkList
+_checkPtrmap
+_checkTreePage
+_checkAppendMsg
+_checkRef
+_rowSetEntryAlloc
+_rowSetEntrySort
+_rowSetEntryMerge
+_rowSetListToTree
+_rowSetTreeToList
+_rowSetNDeepTree
+_execSql
+_keen_io_sqlite3BtreeCommit
+_keen_io_sqlite3BtreeSetAutoVacuum
+_keen_io_sqlite3BtreeGetAutoVacuum
+_execExecSql
+_vacuumFinalize
+_growVTrans
+_vtabCallConstructor
+_vtabDisconnectAll
+_keen_io_sqlite3XPrintf
+_keen_io_sqlite3GetToken
+_keywordCode
+_keen_io_sqlite3VdbeAddOp3
+_growOpArray
+_keen_io_sqlite3DbStrNDup
+_resolveP2Values
+_keen_io_sqlite3ReadSchema
+_keen_io_sqlite3Init
+_keen_io_sqlite3InitOne
+_keen_io_sqlite3BtreeSetCacheSize
+_keen_io_sqlite3VtabUnlockList
+_keen_io_sqlite3CollapseDatabaseArray
+_sqliteDeleteColumnNames
+_fkTriggerDelete
+_keen_io_sqlite3Utf8Read
+_keen_io_sqlite3Prepare
+_keen_io_sqlite3VdbeSetNumCols
+_keen_io_sqlite3VdbeSetColName
+_keen_io_sqlite3Utf8CharLen
+_keen_io_sqlite3DeleteTriggerStep
+_keen_io_sqlite3Parser
+_yy_shift
+_yy_reduce
+_yy_destructor
+_yy_pop_parser_stack
+_keen_io_sqlite3Savepoint
+_keen_io_sqlite3StartTable
+_keen_io_sqlite3EndTable
+_keen_io_sqlite3AddDefaultValue
+_keen_io_sqlite3PExpr
+_keen_io_sqlite3AddPrimaryKey
+_keen_io_sqlite3CreateIndex
+_keen_io_sqlite3AddCheckConstraint
+_keen_io_sqlite3CreateForeignKey
+_keen_io_sqlite3DropTable
+_keen_io_sqlite3Select
+_keen_io_sqlite3SrcListAppendFromTerm
+_keen_io_sqlite3SelectNew
+_keen_io_sqlite3ExprListAppend
+_keen_io_sqlite3ExprListSetName
+_keen_io_sqlite3Expr
+_keen_io_sqlite3SrcListIndexedBy
+_keen_io_sqlite3SrcListAppend
+_keen_io_sqlite3JoinType
+_keen_io_sqlite3DeleteFrom
+_keen_io_sqlite3Update
+_keen_io_sqlite3Insert
+_keen_io_sqlite3IdListAppend
+_keen_io_sqlite3ExprAddCollateToken
+_keen_io_sqlite3ExprFunction
+_keen_io_sqlite3ExprSetHeight
+_keen_io_sqlite3Pragma
+_keen_io_sqlite3Reindex
+_keen_io_sqlite3Analyze
+_keen_io_sqlite3VtabFinishParse
+_keen_io_sqlite3WithAdd
+_keen_io_sqlite3GetVdbe
+_keen_io_sqlite3VdbeDeletePriorOpcode
+_keen_io_sqlite3ExprCode
+_keen_io_sqlite3OpenTable
+_keen_io_sqlite3TableLock
+_keen_io_sqlite3KeyInfoOfIndex
+_keen_io_sqlite3KeyInfoAlloc
+_keen_io_sqlite3LocateCollSeq
+_keen_io_sqlite3FindCollSeq
+_keen_io_sqlite3GetCollSeq
+_keen_io_sqlite3ExprCodeTarget
+_keen_io_sqlite3ExprCodeGetColumn
+_codeInteger
+_codeReal
+_keen_io_sqlite3HexToBlob
+_keen_io_sqlite3AffinityType
+_keen_io_sqlite3ExprCodeTemp
+_codeCompare
+_keen_io_sqlite3VdbeMakeLabel
+_keen_io_sqlite3ExprCacheRemove
+_keen_io_sqlite3ExprCachePop
+_keen_io_sqlite3ExprCollSeq
+_keen_io_sqlite3ExprCodeExprList
+_keen_io_sqlite3VtabOverloadFunction
+_keen_io_sqlite3CodeSubselect
+_keen_io_sqlite3ExprCodeIN
+_keen_io_sqlite3ReleaseTempReg
+_keen_io_sqlite3ExprIfFalse
+_keen_io_sqlite3HaltConstraint
+_keen_io_sqlite3ExprCodeGetColumnOfTable
+_keen_io_sqlite3ExprCacheStore
+_keen_io_sqlite3ColumnDefault
+_keen_io_sqlite3ValueFromExpr
+_dup8bytes
+_keen_io_sqlite3ExprCompare
+_keen_io_sqlite3ExprCodeAtInit
+_exprNodeIsConstant
+_selectNodeIsConstant
+_keen_io_sqlite3WalkExpr
+_keen_io_sqlite3WalkSelect
+_keen_io_sqlite3WalkExprList
+_keen_io_sqlite3ExprListCompare
+_exprDup
+_dupedExprSize
+_keen_io_sqlite3SelectDup
+_keen_io_sqlite3ExprListDup
+_dupedExprNodeSize
+_keen_io_sqlite3SrcListDup
+_keen_io_sqlite3IdListDup
+_keen_io_sqlite3BinaryCompareCollSeq
+_keen_io_sqlite3ExprAffinity
+_keen_io_sqlite3CompareAffinity
+_keen_io_sqlite3ExprIsInteger
+_keen_io_sqlite3FindInIndex
+_comparisonAffinity
+_keen_io_sqlite3CodeVerifySchema
+_keen_io_sqlite3ExprIfTrue
+_exprCodeBetween
+_exprAlwaysFalse
+_exprAlwaysTrue
+_keen_io_sqlite3AuthCheck
+_keen_io_sqlite3NameFromToken
+_keen_io_sqlite3Dequote
+_keen_io_sqlite3TwoPartName
+_keen_io_sqlite3CheckObjectName
+_keen_io_sqlite3OpenMasterTable
+_estimateIndexWidth
+_keen_io_sqlite3ResultSetOfSelect
+_keen_io_sqlite3NestedParse
+_keen_io_sqlite3ChangeCookie
+_keen_io_sqlite3VdbeAddParseSchemaOp
+_resizeIndexObject
+_keen_io_sqlite3ResolveExprNames
+_resolveExprStep
+_resolveSelectStep
+_lookupName
+_keen_io_sqlite3MatchSpanName
+_keen_io_sqlite3IsRowid
+_resolveAlias
+_keen_io_sqlite3ExprAddCollateString
+_incrAggDepth
+_keen_io_sqlite3AuthReadCol
+_exprSrcCount
+_keen_io_sqlite3SelectPrep
+_resolveOrderGroupBy
+_exprWalkNoop
+_convertCompoundSelectToSubquery
+_selectExpander
+_selectPopWith
+_keen_io_sqlite3SrcListAssignCursors
+_selectColumnsFromExprList
+_keen_io_sqlite3LocateTableItem
+_keen_io_sqlite3ViewGetColumnNames
+_keen_io_sqlite3IndexedByLookup
+_keen_io_sqlite3IdListIndex
+_addWhereTerm
+_setJoinExpr
+_keen_io_sqlite3ExprAnd
+_columnIndex
+_keen_io_sqlite3CreateColumnExpr
+_keen_io_sqlite3ExprAlloc
+_keen_io_sqlite3ExprAttachSubtrees
+_exprSetHeight
+_heightOfSelect
+_heightOfExprList
+_selectAddSubqueryTypeInfo
+_selectAddColumnTypeAndCollation
+_columnTypeImpl
+_resolveAsName
+_keen_io_sqlite3ResolveOrderGroupBy
+_identPut
+_keen_io_sqlite3SrcListLookup
+_keen_io_sqlite3FixSrcList
+_keen_io_sqlite3AllocateIndexObject
+_keen_io_sqlite3RefillIndex
+_keen_io_sqlite3FixSelect
+_keen_io_sqlite3FixExpr
+_keen_io_sqlite3FixExprList
+_keen_io_sqlite3GenerateIndexKey
+_keen_io_sqlite3ResolvePartIdxLabel
+_keen_io_sqlite3UniqueConstraint
+_keen_io_sqlite3CodeVerifyNamedSchema
+_keen_io_sqlite3ClearStatTables
+_keen_io_sqlite3FkReferences
+_keen_io_sqlite3TriggerList
+_keen_io_sqlite3DropTriggerPtr
+_destroyTable
+_destroyRootPage
+_keyInfoFromExprList
+_computeLimitRegisters
+_keen_io_sqlite3WhereBegin
+_selectInnerLoop
+_keen_io_sqlite3WhereEnd
+_keen_io_sqlite3ExprAnalyzeAggList
+_keen_io_sqlite3ExprAnalyzeAggregates
+_explainTempTable
+_keen_io_sqlite3ExprCacheClear
+_keen_io_sqlite3ExprCodeMove
+_updateAccumulator
+_finalizeAggFunctions
+_resetAccumulator
+_generateColumnNames
+_keen_io_sqlite3SrcListEnlarge
+_substExprList
+_substExpr
+_substSelect
+_generateWithRecursiveQuery
+_multiSelectOrderBy
+_explainComposite
+_multiSelectCollSeq
+_multiSelectOrderByKeyInfo
+_codeOffset
+_generateOutputSubroutine
+_whereSplit
+_wherePathSolver
+_exprListTableUsage
+_explainOneScan
+_whereInfoFree
+_whereClauseInsert
+_exprAnalyze
+_exprTableUsage
+_exprSelectTableUsage
+_findTerm
+_whereScanInit
+_whereScanNext
+_whereLoopAddVirtual
+_whereLoopAddBtree
+_whereLoopClear
+_whereLoopResize
+_whereLoopInsert
+_whereOrInsert
+_whereLoopFindLesser
+_whereLoopCheaperProperSubset
+_whereLoopClearUnion
+_termCanDriveIndex
+_keen_io_sqlite3LogEstAdd
+_whereLoopOutputAdjust
+_whereLoopAddBtreeIndex
+_keen_io_sqlite3ExprImpliesExpr
+_wherePathSatisfiesOrderBy
+_explainAppendTerm
+_codeEqualityTerm
+_disableTerm
+_codeAllEqualityTerms
+_keen_io_sqlite3ExprNeedsNoAffinityChange
+_codeApplyAffinity
+_keen_io_sqlite3IndexAffinityStr
+_whereClauseClear
+_keen_io_sqlite3LogEstToInt
+_codeDistinct
+_pushOntoSorter
+_analyzeAggregate
+_analyzeAggregatesInSelect
+_keen_io_sqlite3ArrayAllocate
+_keen_io_sqlite3TriggersExist
+_keen_io_sqlite3IsReadOnly
+_keen_io_sqlite3MaterializeView
+_keen_io_sqlite3OpenTableAndIndices
+_keen_io_sqlite3VtabMakeWritable
+_keen_io_sqlite3GenerateRowDelete
+_keen_io_sqlite3AutoincrementEnd
+_checkColumnOverlap
+_fkParentIsModified
+_keen_io_sqlite3TriggerColmask
+_keen_io_sqlite3FkOldmask
+_keen_io_sqlite3CodeRowTrigger
+_keen_io_sqlite3FkCheck
+_keen_io_sqlite3GenerateRowIndexDelete
+_keen_io_sqlite3FkActions
+_getRowTrigger
+_codeTriggerProgram
+_targetSrcList
+_keen_io_sqlite3FkLocateIndex
+_keen_io_sqlite3CodeRowTriggerDirect
+_fkLookupParent
+_fkScanChildren
+_exprTableRegister
+_keen_io_sqlite3TableAffinity
+_keen_io_sqlite3GenerateConstraintChecks
+_keen_io_sqlite3CompleteInsertion
+_keen_io_sqlite3RowidConstraint
+_autoIncBegin
+_xferCompatibleIndex
+_returnSingleInt
+_keen_io_sqlite3BtreeSecureDelete
+_invalidateTempStorage
+_getSafetyLevel
+_setAllPagerFlags
+_keen_io_sqlite3BtreeSetPagerFlags
+_likeFunc
+_setLikeOptFlag
+_triggerStepAllocate
+_attachFunc
+_codeAttach
+_keen_io_sqlite3ParseUri
+_keen_io_sqlite3SchemaGet
+_detachFunc
+_reindexDatabases
+_reindexTable
+_analyzeDatabase
+_analyzeTable
+_openStatTable
+_analyzeOneTable
+_loadAnalysis
+_statInit
+_stat4Destructor
+_statPush
+_statGet
+_isSystemTable
+_whereTempTriggers
+_reloadTableSchema
+_whereOrName
+_addArgumentToVtab
+_addModuleArgument
+_pthreadMutexInit
+_pthreadMutexEnd
+_pthreadMutexAlloc
+_pthreadMutexFree
+_pthreadMutexEnter
+_pthreadMutexTry
+_pthreadMutexLeave
+_noopMutexInit
+_noopMutexEnd
+_noopMutexAlloc
+_noopMutexFree
+_noopMutexEnter
+_noopMutexTry
+_noopMutexLeave
+_trimFunc
+_minmaxFunc
+_minmaxStep
+_minMaxFinalize
+_typeofFunc
+_lengthFunc
+_instrFunc
+_substrFunc
+_printfFunc
+_unicodeFunc
+_charFunc
+_absFunc
+_roundFunc
+_upperFunc
+_lowerFunc
+_versionFunc
+_hexFunc
+_randomFunc
+_randomBlob
+_nullifFunc
+_sourceidFunc
+_errlogFunc
+_compileoptionusedFunc
+_compileoptiongetFunc
+_quoteFunc
+_last_insert_rowid
+_changes
+_total_changes
+_replaceFunc
+_zeroblobFunc
+_loadExt
+_sumStep
+_sumFinalize
+_totalFinalize
+_avgFinalize
+_countStep
+_countFinalize
+_groupConcatStep
+_groupConcatFinalize
+_keen_io_sqlite3FuncDefInsert
+_contextMalloc
+_functionSearch
+_juliandayFunc
+_dateFunc
+_timeFunc
+_datetimeFunc
+_strftimeFunc
+_ctimeFunc
+_ctimestampFunc
+_cdateFunc
+_isDate
+_computeJD
+_setDateTimeToCurrent
+_parseHhMmSs
+_getDigits
+_localtimeOffset
+_computeYMD
+_computeHMS
+_renameTableFunc
+_renameTriggerFunc
+_renameParentFunc
+_keen_io_sqlite3MemMalloc
+_keen_io_sqlite3MemFree
+_keen_io_sqlite3MemRealloc
+_keen_io_sqlite3MemSize
+_keen_io_sqlite3MemRoundup
+_keen_io_sqlite3MemInit
+_keen_io_sqlite3MemShutdown
+_pcache1Init
+_pcache1Shutdown
+_pcache1Create
+_pcache1Cachesize
+_pcache1Pagecount
+_pcache1Fetch
+_pcache1Unpin
+_pcache1Rekey
+_pcache1Truncate
+_pcache1Destroy
+_pcache1Shrink
+_pcache1EnforceMaxPage
+_pcache1PinPage
+_pcache1FreePage
+_pcache1TruncateUnsafe
+_connectionIsBusy
+_functionDestroy
+_matchQuality
+_binCollFunc
+_nocaseCollatingFunc
+_azCompileOpt
+_keen_io_sqlite3CtypeMap
+_keen_io_sqlite3Config
+_vfsList
+_mem0
+_keen_io_sqlite3Prng
+_keen_io_sqlite3UpperToLower
+_keen_io_sqlite3_os_init.aVfs
+_autolockIoFinder
+_nolockIoFinder
+_dotlockIoFinder
+_posixIoFinder
+_flockIoFinder
+_afpIoFinder
+_nfsIoFinder
+_proxyIoFinder
+_keen_io_sqlite3PendingByte
+_keen_io_sqlite3_value_type.aType
+_keen_io_sqlite3_blob_open.openBlob
+_globInfo
+_keen_io_sqlite3_vtab_on_conflict.aMap
+_keen_io_sqlite3_complete.trans
+_keen_io_sqlite3GlobalFunctions
+_keen_io_sqlite3_db_config.aFlagOp
+_keen_io_sqlite3_errmsg16.outOfMem
+_keen_io_sqlite3_errmsg16.misuse
+_aHardLimit
+_fmtinfo
+_keen_io_sqlite3VXPrintf.zOrd
+_aDigits
+_aPrefix
+_autolockIoFinderImpl.aMap
+_posixIoMethods
+_afpIoMethods
+_nolockIoMethods
+_aSyscall
+_nfsIoMethods
+_dotlockIoMethods
+_inodeList
+_unixGetTempname.zChars
+_unixTempFileDir.azDirs
+_proxyIoMethods
+_randomnessPid
+_flockIoMethods
+_keen_io_sqlite3SharedCacheList
+_MemJournalMethods
+_aJournalMagic
+_syncJournal.zerobyte
+_pcache1_g
+_zeroJournalHdr.zeroHdr
+_zMagicHeader
+_keen_io_sqlite3Utf8Trans1
+_keen_io_sqlite3OpcodeName.azName
+_keen_io_sqlite3VdbeExec.azType
+_keen_io_sqlite3VdbeExec.and_logic
+_keen_io_sqlite3VdbeExec.or_logic
+_keen_io_sqlite3VdbeSerialTypeLen.aSize
+_keen_io_sqlite3VdbeSerialGet.aFlag
+_keen_io_sqlite3LogEst.a
+_keen_io_sqlite3JournalModename.azModeName
+_keen_io_sqlite3RunVacuum.aCopy
+_keywordCode.zText
+_keywordCode.aHash
+_keywordCode.aNext
+_keywordCode.aLen
+_keywordCode.aOffset
+_keywordCode.aCode
+_columnNullValue.nullMem
+_keen_io_sqlite3OpcodeProperty
+_keen_io_sqlite3InitOne.master_schema
+_keen_io_sqlite3InitOne.temp_master_schema
+_keen_io_sqlite3Apis
+_keen_io_sqlite3Prepare.azColName
+_yy_shift_ofst
+_yy_default
+_yy_lookahead
+_yyFallback
+_yy_action
+_keen_io_sqlite3IntTokens
+_yyRuleInfo
+_yyzerominor
+_synthCollSeq.aEnc
+_keen_io_sqlite3VdbeGetOp.dummy
+_keen_io_sqlite3Savepoint.az
+_createTableStmt.azType
+_keen_io_sqlite3DropTriggerPtr.dropTrigger
+_exprAnalyze.ops
+_keen_io_sqlite3LogEstAdd.x
+_codeOneLoopStart.aMoveOp
+_codeOneLoopStart.aStartOp
+_codeOneLoopStart.aEndOp
+_codeOneLoopStart.aStep
+_codeOneLoopStart.aStart
+_keen_io_sqlite3JoinType.zKeyText
+_keen_io_sqlite3JoinType.aKeyword
+_aPragmaNames
+_keen_io_sqlite3Pragma.getCacheSize
+_keen_io_sqlite3Pragma.setMeta6
+_keen_io_sqlite3Pragma.endCode
+_keen_io_sqlite3Pragma.encnames
+_keen_io_sqlite3Pragma.setCookie
+_keen_io_sqlite3Pragma.readCookie
+_getSafetyLevel.zText
+_getSafetyLevel.iOffset
+_getSafetyLevel.iLength
+_getSafetyLevel.iValue
+_likeInfoAlt
+_likeInfoNorm
+_keen_io_sqlite3Attach.attach_func
+_keen_io_sqlite3ParseUri.aCacheMode
+_keen_io_sqlite3ParseUri.aOpenMode
+_keen_io_sqlite3Detach.detach_func
+_openStatTable.aTable
+_statInitFuncdef
+_statPushFuncdef
+_statGetFuncdef
+_yy_reduce_ofst
+_keen_io_sqlite3DefaultMutex.sMutex
+_pthreadMutexAlloc.staticMutexes
+_keen_io_sqlite3NoopMutex.sMutex
+_keen_io_sqlite3RegisterGlobalFunctions.aBuiltinFunc
+_trimFunc.lenOne
+_trimFunc.azOne
+_hexdigits
+_keen_io_sqlite3RegisterDateTimeFunctions.aDateTimeFuncs
+_keen_io_sqlite3AlterFunctions.aAlterTableFuncs
+_keen_io_sqlite3MemSetDefault.defaultMethods
+__sqliteZone_
+_keen_io_sqlite3PCacheSetDefault.defaultMethods
+_keen_io_sqlite3ErrStr.aMsg
+_keen_io_sqlite3SavedPrng
+_keen_io_sqlite3Stat.0
+_keen_io_sqlite3Stat.1
+_keen_io_sqlite3Autoext.0
+_keen_io_sqlite3Autoext.1
+_keen_io_sqlite3Hooks.0
+_keen_io_sqlite3Hooks.1
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/Library/sqlite-amalgamation/keen_io_sqlite3.c
+nocaseCollatingFunc
+binCollFunc
+allSpaces
+matchQuality
+functionDestroy
+connectionIsBusy
+keen_io_sqlite3BtreeIsInBackup
+pcache1TruncateUnsafe
+pcache1FreePage
+pcache1PinPage
+pcache1EnforceMaxPage
+pcache1RemoveFromHash
+pcache1Shrink
+keen_io_sqlite3_mutex_leave
+keen_io_sqlite3_mutex_enter
+pcache1Destroy
+pcache1Truncate
+pcache1Rekey
+pcache1Unpin
+pcache1Fetch
+keen_io_sqlite3EndBenignMalloc
+pcache1AllocPage
+keen_io_sqlite3BeginBenignMalloc
+pcache1UnderMemoryPressure
+pcache1ResizeHash
+pcache1Pagecount
+pcache1Cachesize
+pcache1Create
+pcache1Shutdown
+pcache1Init
+keen_io_sqlite3_mutex_alloc
+keen_io_sqlite3MemShutdown
+keen_io_sqlite3MemInit
+keen_io_sqlite3MemRoundup
+keen_io_sqlite3MemSize
+keen_io_sqlite3MemRealloc
+keen_io_sqlite3MemFree
+keen_io_sqlite3MemMalloc
+renameParentFunc
+keen_io_sqlite3_result_text
+keen_io_sqlite3_value_text
+keen_io_sqlite3_context_db_handle
+renameTriggerFunc
+renameTableFunc
+computeHMS
+computeYMD
+localtimeOffset
+keen_io_sqlite3_result_error
+osLocaltime
+keen_io_sqlite3MutexAlloc
+computeYMD_HMS
+getDigits
+parseHhMmSs
+parseTimezone
+setDateTimeToCurrent
+keen_io_sqlite3StmtCurrentTime
+computeJD
+isDate
+parseModifier
+clearYMD_HMS_TZ
+keen_io_sqlite3Strlen30
+parseDateOrTime
+parseYyyyMmDd
+keen_io_sqlite3_value_double
+keen_io_sqlite3_value_type
+cdateFunc
+ctimestampFunc
+ctimeFunc
+strftimeFunc
+keen_io_sqlite3_result_error_nomem
+keen_io_sqlite3_result_error_toobig
+datetimeFunc
+timeFunc
+dateFunc
+juliandayFunc
+keen_io_sqlite3_result_double
+functionSearch
+contextMalloc
+keen_io_sqlite3FuncDefInsert
+groupConcatFinalize
+keen_io_sqlite3_aggregate_context
+groupConcatStep
+keen_io_sqlite3_value_bytes
+countFinalize
+keen_io_sqlite3_result_int64
+keen_io_sqlite3VdbeMemSetInt64
+countStep
+avgFinalize
+totalFinalize
+sumFinalize
+sumStep
+keen_io_sqlite3AddInt64
+keen_io_sqlite3_value_int64
+loadExt
+zeroblobFunc
+keen_io_sqlite3_result_zeroblob
+keen_io_sqlite3VdbeMemSetZeroBlob
+replaceFunc
+keen_io_sqlite3_realloc
+keen_io_sqlite3_result_value
+total_changes
+keen_io_sqlite3_result_int
+keen_io_sqlite3_total_changes
+changes
+keen_io_sqlite3_changes
+last_insert_rowid
+keen_io_sqlite3_last_insert_rowid
+quoteFunc
+compileoptiongetFunc
+keen_io_sqlite3_compileoption_get
+keen_io_sqlite3_value_int
+compileoptionusedFunc
+errlogFunc
+sourceidFunc
+nullifFunc
+keen_io_sqlite3GetFuncCollSeq
+randomBlob
+keen_io_sqlite3_result_blob
+randomFunc
+hexFunc
+versionFunc
+lowerFunc
+upperFunc
+roundFunc
+absFunc
+keen_io_sqlite3_result_null
+charFunc
+keen_io_sqlite3_malloc
+unicodeFunc
+printfFunc
+keen_io_sqlite3StrAccumInit
+substrFunc
+instrFunc
+lengthFunc
+typeofFunc
+minMaxFinalize
+minmaxStep
+keen_io_sqlite3SkipAccumulatorLoad
+keen_io_sqlite3_user_data
+minmaxFunc
+trimFunc
+noopMutexLeave
+noopMutexTry
+noopMutexEnter
+noopMutexFree
+noopMutexAlloc
+noopMutexEnd
+noopMutexInit
+pthreadMutexLeave
+pthreadMutexTry
+pthreadMutexEnter
+pthreadMutexFree
+pthreadMutexAlloc
+pthreadMutexEnd
+pthreadMutexInit
+addModuleArgument
+addArgumentToVtab
+whereOrName
+reloadTableSchema
+keen_io_sqlite3VdbeAddOp4
+keen_io_sqlite3SchemaToIndex
+whereTempTriggers
+isSystemTable
+statGet
+statPush
+stat4Destructor
+statInit
+loadAnalysis
+keen_io_sqlite3VdbeAddOp1
+analyzeOneTable
+keen_io_sqlite3VdbeJumpHere
+keen_io_sqlite3VdbeChangeP2
+keen_io_sqlite3VdbeChangeP5
+keen_io_sqlite3VdbeAddOp2
+callStatGet
+keen_io_sqlite3VdbeAddOp0
+keen_io_sqlite3VdbeCurrentAddr
+keen_io_sqlite3VdbeSetP4KeyInfo
+openStatTable
+keen_io_sqlite3VdbeAddOp4Int
+analyzeTable
+keen_io_sqlite3BeginWriteOperation
+analyzeDatabase
+reindexTable
+collationMatch
+reindexDatabases
+detachFunc
+keen_io_sqlite3BtreeIsInReadTrans
+keen_io_sqlite3SchemaGet
+keen_io_sqlite3HashInit
+keen_io_sqlite3BtreeSchema
+keen_io_sqlite3ParseUri
+keen_io_sqlite3HexToInt
+codeAttach
+keen_io_sqlite3GetTempRange
+resolveAttachExpr
+attachFunc
+keen_io_sqlite3PagerLockingMode
+keen_io_sqlite3WalHeapMemory
+keen_io_sqlite3BtreePager
+triggerStepAllocate
+setLikeOptFlag
+likeFunc
+keen_io_sqlite3BtreeSetPagerFlags
+keen_io_sqlite3PagerSetFlags
+setAllPagerFlags
+getSafetyLevel
+keen_io_sqlite3Atoi
+invalidateTempStorage
+keen_io_sqlite3BtreeSecureDelete
+returnSingleInt
+keen_io_sqlite3VdbeSetColName
+xferCompatibleIndex
+xferCompatibleCollation
+autoIncBegin
+keen_io_sqlite3RowidConstraint
+keen_io_sqlite3CompleteInsertion
+keen_io_sqlite3ExprCacheAffinityChange
+keen_io_sqlite3GetTempReg
+keen_io_sqlite3GenerateConstraintChecks
+keen_io_sqlite3ReleaseTempRange
+keen_io_sqlite3VdbeResolveLabel
+keen_io_sqlite3MultiWrite
+keen_io_sqlite3ColumnOfIndex
+keen_io_sqlite3FkRequired
+keen_io_sqlite3MayAbort
+keen_io_sqlite3PrimaryKeyIndex
+keen_io_sqlite3TableAffinity
+keen_io_sqlite3DbMallocRaw
+keen_io_sqlite3VdbeDb
+exprTableRegister
+keen_io_sqlite3Expr
+fkScanChildren
+exprTableColumn
+fkLookupParent
+keen_io_sqlite3CodeRowTriggerDirect
+keen_io_sqlite3FkLocateIndex
+targetSrcList
+codeTriggerProgram
+keen_io_sqlite3SelectDestInit
+keen_io_sqlite3ExprDup
+getRowTrigger
+codeRowTrigger
+keen_io_sqlite3VdbeTakeOpArray
+transferParseError
+keen_io_sqlite3VdbeLinkSubProgram
+keen_io_sqlite3FkActions
+fkActionTrigger
+keen_io_sqlite3ExprListSetName
+keen_io_sqlite3GenerateRowIndexDelete
+keen_io_sqlite3FkCheck
+fkChildIsModified
+keen_io_sqlite3CodeRowTrigger
+keen_io_sqlite3FkOldmask
+keen_io_sqlite3TriggerColmask
+fkParentIsModified
+checkColumnOverlap
+keen_io_sqlite3AutoincrementEnd
+keen_io_sqlite3GenerateRowDelete
+keen_io_sqlite3VtabMakeWritable
+keen_io_sqlite3OpenTableAndIndices
+keen_io_sqlite3MaterializeView
+keen_io_sqlite3IsReadOnly
+keen_io_sqlite3GetVTable
+keen_io_sqlite3TriggersExist
+keen_io_sqlite3ArrayAllocate
+analyzeAggregatesInSelect
+analyzeAggregate
+addAggInfoFunc
+addAggInfoColumn
+pushOntoSorter
+keen_io_sqlite3VdbeGetOp
+codeDistinct
+keen_io_sqlite3LogEstToInt
+whereClauseClear
+whereAndInfoDelete
+whereOrInfoDelete
+keen_io_sqlite3IndexAffinityStr
+codeApplyAffinity
+keen_io_sqlite3ExprNeedsNoAffinityChange
+codeAllEqualityTerms
+keen_io_sqlite3ExprCanBeNull
+disableTerm
+codeEqualityTerm
+explainAppendTerm
+keen_io_sqlite3StrAccumAppendAll
+wherePathSatisfiesOrderBy
+keen_io_sqlite3ExprIsConstant
+exprIsConst
+keen_io_sqlite3ExprSkipCollate
+keen_io_sqlite3ExprImpliesExpr
+whereLoopAddBtreeIndex
+whereRangeScanEst
+whereRangeAdjust
+estLog
+whereLoopOutputAdjust
+keen_io_sqlite3LogEstAdd
+termCanDriveIndex
+keen_io_sqlite3IndexAffinityOk
+whereLoopClearUnion
+keen_io_sqlite3KeyInfoUnref
+keen_io_sqlite3DbFree
+whereLoopCheaperProperSubset
+whereLoopFindLesser
+whereOrInsert
+whereLoopInsert
+whereLoopXfer
+whereLoopDelete
+whereLoopInit
+whereLoopAdjustCost
+whereLoopResize
+whereLoopClear
+whereLoopAddBtree
+columnsInIndex
+indexMightHelpWithOrderBy
+whereUsablePartialIndex
+whereLoopAddVirtual
+keen_io_sqlite3LogEstFromDouble
+vtabBestIndex
+keen_io_sqlite3ErrStr
+allocateIndexInfo
+whereScanNext
+whereScanInit
+findTerm
+exprSelectTableUsage
+exprTableUsage
+getMask
+exprAnalyze
+isMatchOfColumn
+transferJoinMarkings
+isLikeOrGlob
+keen_io_sqlite3VdbeChangeP3
+keen_io_sqlite3VdbeSetVarmask
+keen_io_sqlite3VdbeGetBoundValue
+keen_io_sqlite3ValueNew
+keen_io_sqlite3IsLikeFunction
+exprAnalyzeOrTerm
+allowedOp
+exprAnalyzeAll
+whereClauseInit
+operatorMask
+exprCommute
+whereClauseInsert
+keen_io_sqlite3DbMallocSize
+isLookaside
+whereInfoFree
+explainOneScan
+explainIndexRange
+exprListTableUsage
+wherePathSolver
+whereSplit
+generateOutputSubroutine
+keen_io_sqlite3KeyInfoRef
+codeOffset
+multiSelectOrderByKeyInfo
+multiSelectCollSeq
+explainComposite
+selectOpName
+multiSelectOrderBy
+keen_io_sqlite3SelectDelete
+generateWithRecursiveQuery
+substSelect
+substExpr
+substExprList
+keen_io_sqlite3SrcListEnlarge
+generateColumnNames
+generateColumnTypes
+resetAccumulator
+finalizeAggFunctions
+updateAccumulator
+keen_io_sqlite3ExprCodeMove
+keen_io_sqlite3ExprCacheClear
+cacheEntryClear
+explainTempTable
+keen_io_sqlite3ExprAnalyzeAggregates
+keen_io_sqlite3ExprAnalyzeAggList
+keen_io_sqlite3WhereEnd
+selectInnerLoop
+keen_io_sqlite3WhereBegin
+codeOneLoopStart
+keen_io_sqlite3VdbeChangeP1
+keen_io_sqlite3ExprCachePush
+constructAutomaticIndex
+keen_io_sqlite3CodeOnce
+whereLoopAddAll
+whereLoopAddOr
+whereOrMove
+whereShortCut
+isDistinctRedundant
+findIndexCol
+createMask
+keen_io_sqlite3ExprIsConstantNotJoin
+computeLimitRegisters
+keyInfoFromExprList
+destroyRootPage
+destroyTable
+keen_io_sqlite3DropTriggerPtr
+keen_io_sqlite3TriggerList
+keen_io_sqlite3FkReferences
+keen_io_sqlite3ClearStatTables
+keen_io_sqlite3CodeVerifyNamedSchema
+keen_io_sqlite3UniqueConstraint
+keen_io_sqlite3ResolvePartIdxLabel
+keen_io_sqlite3GenerateIndexKey
+keen_io_sqlite3FixExprList
+keen_io_sqlite3FixExpr
+keen_io_sqlite3FixSelect
+keen_io_sqlite3RefillIndex
+keen_io_sqlite3AllocateIndexObject
+keen_io_sqlite3FixSrcList
+keen_io_sqlite3SrcListLookup
+identPut
+keen_io_sqlite3KeywordCode
+keen_io_sqlite3ResolveOrderGroupBy
+resolveOutOfRangeError
+resolveAsName
+columnTypeImpl
+selectAddColumnTypeAndCollation
+selectAddSubqueryTypeInfo
+heightOfExprList
+heightOfExpr
+heightOfSelect
+exprSetHeight
+keen_io_sqlite3ExprAttachSubtrees
+keen_io_sqlite3ExprAlloc
+keen_io_sqlite3CreateColumnExpr
+columnIndex
+keen_io_sqlite3ExprAnd
+setJoinExpr
+addWhereTerm
+keen_io_sqlite3IdListIndex
+keen_io_sqlite3IndexedByLookup
+keen_io_sqlite3ViewGetColumnNames
+keen_io_sqlite3VtabCallConnect
+keen_io_sqlite3LocateTableItem
+selectColumnsFromExprList
+keen_io_sqlite3SrcListAssignCursors
+selectPopWith
+findRightmost
+selectExpander
+tableAndColumnIndex
+sqliteProcessJoin
+withExpand
+searchWith
+keen_io_sqlite3WithPush
+convertCompoundSelectToSubquery
+exprWalkNoop
+resolveOrderGroupBy
+keen_io_sqlite3SelectPrep
+keen_io_sqlite3SelectAddTypeInfo
+keen_io_sqlite3ResolveSelectNames
+keen_io_sqlite3SelectExpand
+exprSrcCount
+keen_io_sqlite3AuthReadCol
+sqliteAuthBadReturnCode
+incrAggDepth
+keen_io_sqlite3ExprAddCollateString
+resolveAlias
+incrAggFunctionDepth
+keen_io_sqlite3IsRowid
+keen_io_sqlite3MatchSpanName
+lookupName
+keen_io_sqlite3AuthRead
+nameInUsingClause
+resolveSelectStep
+resolveCompoundOrderBy
+resolveOrderByTermToExprList
+resolveExprStep
+notValidPartIdxWhere
+notValidCheckConstraint
+keen_io_sqlite3FunctionUsesThisSrc
+exprProbability
+keen_io_sqlite3ResolveExprNames
+keen_io_sqlite3ExprCheckHeight
+resizeIndexObject
+keen_io_sqlite3VdbeAddParseSchemaOp
+keen_io_sqlite3VdbeUsesBtree
+keen_io_sqlite3BtreeSharable
+keen_io_sqlite3ChangeCookie
+keen_io_sqlite3NestedParse
+keen_io_sqlite3ResultSetOfSelect
+estimateIndexWidth
+keen_io_sqlite3OpenMasterTable
+keen_io_sqlite3CheckObjectName
+keen_io_sqlite3TwoPartName
+keen_io_sqlite3FindDb
+keen_io_sqlite3Dequote
+keen_io_sqlite3NameFromToken
+keen_io_sqlite3AuthCheck
+exprAlwaysTrue
+exprAlwaysFalse
+exprCodeBetween
+exprToRegister
+keen_io_sqlite3ExprIfTrue
+keen_io_sqlite3CodeVerifySchema
+comparisonAffinity
+keen_io_sqlite3FindInIndex
+isCandidateForInOpt
+keen_io_sqlite3ExprIsInteger
+keen_io_sqlite3CompareAffinity
+keen_io_sqlite3ExprAffinity
+keen_io_sqlite3BinaryCompareCollSeq
+keen_io_sqlite3IdListDup
+keen_io_sqlite3SrcListDup
+dupedExprNodeSize
+dupedExprStructSize
+keen_io_sqlite3ExprListDup
+keen_io_sqlite3SelectDup
+withDup
+dupedExprSize
+exprDup
+exprStructSize
+keen_io_sqlite3ExprListCompare
+keen_io_sqlite3WalkExprList
+keen_io_sqlite3WalkSelect
+keen_io_sqlite3WalkSelectFrom
+keen_io_sqlite3WalkSelectExpr
+keen_io_sqlite3WalkExpr
+selectNodeIsConstant
+exprNodeIsConstant
+keen_io_sqlite3ExprCodeAtInit
+keen_io_sqlite3ExprCompare
+dup8bytes
+keen_io_sqlite3ValueFromExpr
+valueFromExpr
+valueNew
+keen_io_sqlite3ValueApplyAffinity
+keen_io_sqlite3ValueSetStr
+keen_io_sqlite3ColumnDefault
+keen_io_sqlite3ExprCacheStore
+keen_io_sqlite3ExprCodeGetColumnOfTable
+keen_io_sqlite3HaltConstraint
+keen_io_sqlite3ExprIfFalse
+keen_io_sqlite3ReleaseTempReg
+keen_io_sqlite3ExprCodeIN
+keen_io_sqlite3CodeSubselect
+keen_io_sqlite3VtabOverloadFunction
+keen_io_sqlite3ExprCodeExprList
+keen_io_sqlite3ExprCollSeq
+keen_io_sqlite3CheckCollSeq
+keen_io_sqlite3ExprCachePop
+keen_io_sqlite3ExprCacheRemove
+keen_io_sqlite3VdbeMakeLabel
+codeCompare
+binaryCompareP5
+keen_io_sqlite3ExprCodeTemp
+keen_io_sqlite3AffinityType
+keen_io_sqlite3HexToBlob
+codeReal
+codeInteger
+keen_io_sqlite3ExprCodeGetColumn
+keen_io_sqlite3ExprCachePinRegister
+keen_io_sqlite3ExprCodeTarget
+keen_io_sqlite3GetCollSeq
+synthCollSeq
+callCollNeeded
+keen_io_sqlite3FindCollSeq
+findCollSeqEntry
+keen_io_sqlite3LocateCollSeq
+keen_io_sqlite3KeyInfoAlloc
+keen_io_sqlite3KeyInfoOfIndex
+keen_io_sqlite3TableLock
+keen_io_sqlite3OpenTable
+keen_io_sqlite3ExprCode
+keen_io_sqlite3VdbeDeletePriorOpcode
+keen_io_sqlite3GetVdbe
+keen_io_sqlite3WithAdd
+keen_io_sqlite3VtabFinishParse
+keen_io_sqlite3Analyze
+keen_io_sqlite3Reindex
+keen_io_sqlite3Pragma
+keen_io_sqlite3RegisterLikeFunctions
+keen_io_sqlite3GetBoolean
+actionName
+keen_io_sqlite3BtreeGetFilename
+keen_io_sqlite3PagerFilename
+keen_io_sqlite3OsFileControl
+keen_io_sqlite3PagerFile
+keen_io_sqlite3OsFileControlHint
+keen_io_sqlite3OsAccess
+changeTempStorage
+getTempStore
+getAutoVacuum
+keen_io_sqlite3PagerJournalSizeLimit
+keen_io_sqlite3WalLimit
+keen_io_sqlite3JournalModename
+getLockingMode
+keen_io_sqlite3AbsInt32
+keen_io_sqlite3BtreeGetPageSize
+keen_io_sqlite3VdbeRunOnlyOnce
+keen_io_sqlite3ExprSetHeight
+keen_io_sqlite3ExprFunction
+keen_io_sqlite3ExprAddCollateToken
+keen_io_sqlite3IdListAppend
+keen_io_sqlite3Insert
+keen_io_sqlite3ExprCodeFactorable
+autoIncStep
+keen_io_sqlite3ExprCodeAndCache
+readsTable
+xferOptimization
+keen_io_sqlite3VdbeCountChanges
+keen_io_sqlite3Update
+keen_io_sqlite3AuthContextPop
+keen_io_sqlite3WhereOkOnePass
+keen_io_sqlite3AuthContextPush
+updateVirtualTable
+keen_io_sqlite3DeleteFrom
+keen_io_sqlite3JoinType
+keen_io_sqlite3SrcListAppend
+keen_io_sqlite3SrcListIndexedBy
+keen_io_sqlite3ExprListAppend
+keen_io_sqlite3SelectNew
+keen_io_sqlite3SrcListAppendFromTerm
+keen_io_sqlite3Select
+generateSortTail
+keen_io_sqlite3WhereBreakLabel
+keen_io_sqlite3WhereIsOrdered
+minMaxQuery
+explainSimpleCount
+isSimpleCount
+keen_io_sqlite3WhereIsSorted
+keen_io_sqlite3WhereContinueLabel
+keen_io_sqlite3WhereIsDistinct
+keen_io_sqlite3WhereOutputRowCount
+multiSelect
+keen_io_sqlite3SelectExprHeight
+keen_io_sqlite3ClearTempRegCache
+flattenSubquery
+checkForMultiColumnSelectError
+keen_io_sqlite3DropTable
+keen_io_sqlite3CodeDropTable
+sqliteViewResetAll
+keen_io_sqlite3FkDropTable
+keen_io_sqlite3CreateForeignKey
+keen_io_sqlite3AddCheckConstraint
+keen_io_sqlite3BtreeIsReadonly
+keen_io_sqlite3CreateIndex
+hasColumn
+keen_io_sqlite3ResolveSelfReference
+keen_io_sqlite3FixInit
+keen_io_sqlite3AddPrimaryKey
+keen_io_sqlite3PExpr
+keen_io_sqlite3AddDefaultValue
+keen_io_sqlite3ExprIsConstantOrFunction
+keen_io_sqlite3EndTable
+createTableStmt
+identLength
+estimateTableWidth
+convertToWithoutRowidTable
+keen_io_sqlite3StartTable
+keen_io_sqlite3Savepoint
+yy_pop_parser_stack
+yy_destructor
+yy_reduce
+yy_accept
+yy_find_reduce_action
+keen_io_sqlite3VtabArgExtend
+keen_io_sqlite3VtabArgInit
+keen_io_sqlite3VtabBeginParse
+keen_io_sqlite3AlterBeginAddColumn
+keen_io_sqlite3AlterFinishAddColumn
+keen_io_sqlite3MinimumFileFormat
+keen_io_sqlite3ValueFree
+keen_io_sqlite3AlterRenameTable
+whereForeignKeys
+keen_io_sqlite3Detach
+keen_io_sqlite3Attach
+keen_io_sqlite3DropTrigger
+keen_io_sqlite3TriggerSelectStep
+keen_io_sqlite3TriggerDeleteStep
+keen_io_sqlite3TriggerInsertStep
+keen_io_sqlite3TriggerUpdateStep
+keen_io_sqlite3BeginTrigger
+keen_io_sqlite3FinishTrigger
+keen_io_sqlite3FixTriggerStep
+keen_io_sqlite3Vacuum
+keen_io_sqlite3DropIndex
+keen_io_sqlite3ExprListCheckLength
+spanUnaryPrefix
+binaryToUnaryIfNull
+spanBinaryExpr
+spanUnaryPostfix
+spanSet
+keen_io_sqlite3ExprAssignVarNumber
+spanExpr
+keen_io_sqlite3SrcListShiftJoinType
+keen_io_sqlite3ExprListSetSpan
+keen_io_sqlite3CreateView
+keen_io_sqlite3DeferForeignKey
+keen_io_sqlite3AddCollateType
+keen_io_sqlite3AddNotNull
+keen_io_sqlite3AddColumnType
+keen_io_sqlite3AddColumn
+keen_io_sqlite3RollbackTransaction
+keen_io_sqlite3CommitTransaction
+keen_io_sqlite3BeginTransaction
+keen_io_sqlite3FinishCoding
+keen_io_sqlite3AutoincrementBegin
+codeTableLocks
+keen_io_sqlite3BeginParse
+yy_shift
+yyStackOverflow
+keen_io_sqlite3Parser
+yy_syntax_error
+yy_find_shift_action
+keen_io_sqlite3DeleteTriggerStep
+keen_io_sqlite3Utf8CharLen
+keen_io_sqlite3VdbeSetNumCols
+keen_io_sqlite3Prepare
+keen_io_sqlite3VdbeSetSql
+schemaIsValid
+keen_io_sqlite3BtreeSchemaLocked
+keen_io_sqlite3Utf8Read
+fkTriggerDelete
+sqliteDeleteColumnNames
+keen_io_sqlite3CollapseDatabaseArray
+keen_io_sqlite3VtabUnlockList
+keen_io_sqlite3ExpirePreparedStatements
+keen_io_sqlite3BtreeSetCacheSize
+keen_io_sqlite3PagerSetCachesize
+keen_io_sqlite3PcacheSetCachesize
+numberOfCachePages
+keen_io_sqlite3InitOne
+keen_io_sqlite3Init
+keen_io_sqlite3CommitInternalChanges
+keen_io_sqlite3ResetOneSchema
+keen_io_sqlite3ReadSchema
+resolveP2Values
+keen_io_sqlite3DbStrNDup
+growOpArray
+keen_io_sqlite3VdbeAddOp3
+keywordCode
+keen_io_sqlite3GetToken
+keen_io_sqlite3XPrintf
+vtabDisconnectAll
+vtabCallConstructor
+growVTrans
+vacuumFinalize
+execExecSql
+keen_io_sqlite3_column_text
+keen_io_sqlite3_prepare
+keen_io_sqlite3BtreeGetAutoVacuum
+keen_io_sqlite3BtreeSetAutoVacuum
+keen_io_sqlite3BtreeCommit
+execSql
+rowSetNDeepTree
+rowSetTreeToList
+rowSetListToTree
+rowSetEntryMerge
+rowSetEntrySort
+rowSetEntryAlloc
+checkRef
+setPageReferenced
+getPageReferenced
+checkAppendMsg
+checkTreePage
+releasePage
+keen_io_sqlite3PageFree
+keen_io_sqlite3PageMalloc
+keen_io_sqlite3Get4byte
+checkPtrmap
+checkList
+keen_io_sqlite3PagerUnref
+keen_io_sqlite3PagerGetData
+tableOfTrigger
+keen_io_sqlite3IdListDelete
+keen_io_sqlite3WithDelete
+keen_io_sqlite3SrcListDelete
+clearSelect
+keen_io_sqlite3ExprListDelete
+keen_io_sqlite3ExprDelete
+freeIndex
+insertElement
+keen_io_sqlite3HashInsert
+strHash
+rehash
+keen_io_sqlite3MallocSize
+removeElementGivenHash
+keen_io_sqlite3LogEst
+decodeIntArray
+keen_io_sqlite3_strglob
+analysisLoader
+keen_io_sqlite3FindTable
+keen_io_sqlite3DefaultRowEst
+findElementGivenHash
+keen_io_sqlite3HashFind
+keen_io_sqlite3MAppendf
+keen_io_sqlite3GetInt32
+keen_io_sqlite3FindIndex
+corruptSchema
+keen_io_sqlite3CorruptError
+clearDatabasePage
+freePage
+btreePagecount
+keen_io_sqlite3DbReallocOrFree
+vdbeSorterIterRead
+keen_io_sqlite3OsRead
+vdbeSorterIterNext
+vdbeSorterIterVarint
+vdbeSorterMerge
+fileWriterFinish
+keen_io_sqlite3OsWrite
+fileWriterWrite
+fileWriterInit
+vdbeSorterListToPMA
+fileWriterWriteVarint
+vdbeSorterOpenTempFile
+vdbeSorterSort
+vdbeSorterCompare
+assemblePage
+copyNodeContent
+defragmentPage
+keen_io_sqlite3PagerTempSpace
+freePage2
+keen_io_sqlite3Put4byte
+btreeSetHasContent
+keen_io_sqlite3BitvecSize
+keen_io_sqlite3BitvecCreate
+keen_io_sqlite3PagerDontWrite
+keen_io_sqlite3PagerRef
+keen_io_sqlite3PcacheRef
+btreePageLookup
+btreePageFromDbPage
+keen_io_sqlite3PagerGetExtra
+keen_io_sqlite3PagerLookup
+balance
+balance_nonroot
+findOverflowCell
+balance_quick
+balance_deeper
+insertCell
+allocateSpace
+dropCell
+freeSpace
+clearCell
+keen_io_sqlite3PagerPageRefcount
+keen_io_sqlite3PcachePageRefcount
+cellSizePtr
+allocateTempSpace
+moveToRightmost
+moveToLeftmost
+keen_io_sqlite3VdbeRecordCompare
+keen_io_sqlite3VarintLen
+keen_io_sqlite3VdbeSerialTypeLen
+vdbeRecordDecodeInt
+vdbeRecordCompareString
+vdbeRecordCompareInt
+keen_io_sqlite3HashClear
+keen_io_sqlite3SchemaClear
+getAndInitPage
+moveToChild
+moveToParent
+moveToRoot
+keen_io_sqlite3BtreeClearCursor
+keen_io_sqlite3PutVarint
+btreeMoveto
+btreeRestoreCursorPosition
+vdbeCompareMemString
+keen_io_sqlite3PagerSetJournalMode
+pagerUnlockDb
+keen_io_sqlite3OsUnlock
+keen_io_sqlite3OsDelete
+keen_io_sqlite3OsClose
+keen_io_sqlite3VdbeMemFinalize
+keen_io_sqlite3RowSetInsert
+keen_io_sqlite3VdbeMemSetRowSet
+keen_io_sqlite3RowSetInit
+keen_io_sqlite3AnalysisLoad
+keen_io_sqlite3InitCallback
+keen_io_sqlite3BtreeClearTable
+invalidateIncrblobCursors
+keen_io_sqlite3VdbeSorterNext
+vdbeSorterRecordFree
+keen_io_sqlite3BtreeDelete
+keen_io_sqlite3BtreeInsert
+fillInCell
+ptrmapPageno
+keen_io_sqlite3BtreeLast
+keen_io_sqlite3VdbeRecordUnpack
+keen_io_sqlite3VdbeAllocUnpackedRecord
+keen_io_sqlite3BtreePrevious
+keen_io_sqlite3BtreeNext
+keen_io_sqlite3BtreeMovetoUnpacked
+keen_io_sqlite3VdbeFindCompare
+keen_io_sqlite3BtreeCreateTable
+btreeCreateTable
+invalidateAllOverflowCache
+keen_io_sqlite3BtreeCursor
+btreeCursor
+allocateCursor
+keen_io_sqlite3BtreeCursorZero
+keen_io_sqlite3PutVarint32
+keen_io_sqlite3VdbeSerialType
+keen_io_sqlite3VdbeSerialGet
+keen_io_sqlite3IsNaN
+keen_io_sqlite3VdbeMemFromBtree
+keen_io_sqlite3BtreeKey
+keen_io_sqlite3BtreeKeyFetch
+fetchPayload
+keen_io_sqlite3BtreeDataSize
+btreeParseCell
+keen_io_sqlite3VdbeCursorMoveto
+keen_io_sqlite3BtreeCursorHasMoved
+keen_io_sqlite3MemCompare
+keen_io_sqlite3VdbeMemNumerify
+applyAffinity
+keen_io_sqlite3VdbeIntegerAffinity
+doubleToInt64
+numericType
+keen_io_sqlite3VdbeMemShallowCopy
+keen_io_sqlite3VdbeExec
+keen_io_sqlite3VdbeExpandSql
+findNextHostParameter
+keen_io_sqlite3BtreeMaxPageCount
+keen_io_sqlite3PagerMaxPageCount
+keen_io_sqlite3BtreeLastPage
+keen_io_sqlite3VdbeMemTooBig
+keen_io_sqlite3VdbeMemMove
+keen_io_sqlite3VtabCallDestroy
+keen_io_sqlite3VtabCallCreate
+addToVTrans
+keen_io_sqlite3VtabLock
+keen_io_sqlite3VtabBegin
+keen_io_sqlite3BtreeLockTable
+setSharedCacheTableLock
+keen_io_sqlite3BtreeIncrVacuum
+keen_io_sqlite3RunVacuum
+keen_io_sqlite3BtreeCopyFile
+keen_io_sqlite3PagerClearCache
+keen_io_sqlite3PagerGetJournalMode
+keen_io_sqlite3BtreeGetReserve
+keen_io_sqlite3TempInMemory
+keen_io_sqlite3PagerIsMemdb
+keen_io_sqlite3PagerCloseWal
+keen_io_sqlite3PagerWalSupported
+keen_io_sqlite3PagerOkToChangeJournalMode
+keen_io_sqlite3VdbeMemIntegerify
+keen_io_sqlite3RowSetTest
+keen_io_sqlite3RowSetNext
+rowSetToList
+keen_io_sqlite3BtreeIntegrityCheck
+keen_io_sqlite3PagerRefcount
+keen_io_sqlite3PcacheRefCount
+keen_io_sqlite3UnlinkAndDeleteTrigger
+keen_io_sqlite3UnlinkAndDeleteIndex
+keen_io_sqlite3UnlinkAndDeleteTable
+keen_io_sqlite3BtreeClearTableOfCursor
+keen_io_sqlite3RootPageMoved
+keen_io_sqlite3BtreeDropTable
+btreeDropTable
+keen_io_sqlite3VdbeIdxKeyCompare
+keen_io_sqlite3VdbeIdxRowid
+keen_io_sqlite3VdbeSorterWrite
+keen_io_sqlite3HeapNearlyFull
+keen_io_sqlite3BtreeFirst
+keen_io_sqlite3VdbeSorterRewind
+keen_io_sqlite3OsCloseFree
+vdbeSorterInitMerge
+vdbeSorterDoCompare
+vdbeSorterIterInit
+keen_io_sqlite3VdbeSorterRowkey
+vdbeSorterRowkey
+keen_io_sqlite3VdbeSorterCompare
+keen_io_sqlite3VdbeSetChanges
+keen_io_sqlite3BtreeEof
+keen_io_sqlite3VdbeSorterInit
+keen_io_sqlite3BtreeCursorHints
+keen_io_sqlite3BtreeBeginStmt
+keen_io_sqlite3BtreeCount
+keen_io_sqlite3VdbeSerialPut
+keen_io_sqlite3BtreeDataFetch
+keen_io_sqlite3VdbeMemRealify
+keen_io_sqlite3MulInt64
+keen_io_sqlite3SubInt64
+keen_io_sqlite3VdbeCheckFk
+keen_io_sqlite3VdbeFrameRestore
+keen_io_sqlite3OsCurrentTimeInt64
+keen_io_sqlite3RowSetClear
+keen_io_sqlite3VdbeMemStringify
+keen_io_sqlite3VdbeMemNulTerminate
+keen_io_sqlite3VdbeMemMakeWriteable
+keen_io_sqlite3VdbeChangeEncoding
+keen_io_sqlite3VdbeMemTranslate
+keen_io_sqlite3AtoF
+keen_io_sqlite3VtabSavepoint
+keen_io_sqlite3BtreeSavepoint
+keen_io_sqlite3VtabImportErrmsg
+keen_io_sqlite3OsOpenMalloc
+keen_io_sqlite3OsOpen
+keen_io_sqlite3SetString
+callFinaliser
+vdbeSorterIterZero
+keen_io_sqlite3VdbeSorterReset
+keen_io_sqlite3BtreeCloseCursor
+unlockBtreeIfUnused
+keen_io_sqlite3BtreeClose
+freeTempSpace
+removeFromSharingList
+keen_io_sqlite3_mutex_free
+keen_io_sqlite3VdbeDeleteAuxData
+keen_io_sqlite3VdbeFreeCursor
+keen_io_sqlite3VdbeSorterClose
+keen_io_sqlite3VdbeCloseStatement
+keen_io_sqlite3VdbeLeave
+keen_io_sqlite3CloseSavepoints
+keen_io_sqlite3RollbackAll
+keen_io_sqlite3VtabRollback
+keen_io_sqlite3BtreeIsInTrans
+keen_io_sqlite3VdbeEnter
+keen_io_sqlite3VdbeTransferError
+keen_io_sqlite3VdbeHalt
+vdbeCommit
+keen_io_sqlite3VtabCommit
+keen_io_sqlite3OsSync
+keen_io_sqlite3OsDeviceCharacteristics
+keen_io_sqlite3BtreeSyncDisabled
+keen_io_sqlite3PagerNosync
+keen_io_sqlite3BtreeGetJournalname
+keen_io_sqlite3PagerJournalname
+keen_io_sqlite3VtabSync
+closeAllCursors
+keen_io_sqlite3VdbeFrameDelete
+keen_io_sqlite3VdbeDelete
+keen_io_sqlite3VtabUnlock
+freeP4
+freeEphemeralFunction
+vdbeFreeOpArray
+releaseMemArray
+keen_io_sqlite3BtreeTripAllCursors
+ptrmapPutOvflPtr
+keen_io_sqlite3BitvecClear
+keen_io_sqlite3PcacheMove
+ptrmapPut
+setChildPtrmaps
+relocatePage
+modifyPagePointer
+keen_io_sqlite3PagerMovepage
+pager_lookup
+allocateBtreePage
+btreeGetHasContent
+ptrmapGet
+getOverflowPage
+copyPayload
+accessPayload
+keen_io_sqlite3GetVarint
+keen_io_sqlite3GetVarint32
+btreeParseCellPtr
+keen_io_sqlite3BtreeKeySize
+btreeReleaseAllCursorPages
+incrVacuumStep
+saveAllCursors
+saveCursorPosition
+finalDbSize
+btreeEndTransaction
+clearAllSharedCacheTableLocks
+downgradeAllSharedCacheTableLocks
+pager_write
+write32bits
+pager_cksum
+pagerUseWal
+pageInJournal
+pager_open_journal
+databaseIsUnmoved
+keen_io_sqlite3MemJournalOpen
+zeroPage
+pagerExclusiveLock
+pagerOpenWal
+keen_io_sqlite3WalOpen
+pagerPagecount
+keen_io_sqlite3OsFileSize
+keen_io_sqlite3WalDbsize
+keen_io_sqlite3PagerOpenWal
+btreeGetPage
+keen_io_sqlite3PagerSharedLock
+pagerBeginReadTransaction
+keen_io_sqlite3WalBeginReadTransaction
+pagerOpenWalIfPresent
+keen_io_sqlite3PcachePagecount
+pager_error
+keen_io_sqlite3CantopenError
+hasHotJournal
+keen_io_sqlite3OsCheckReservedLock
+pager_wait_on_lock
+keen_io_sqlite3PagerOpenSavepoint
+keen_io_sqlite3WalSavepoint
+newDatabase
+querySharedCacheTableLock
+keen_io_sqlite3WalExclusiveMode
+walUnlockShared
+keen_io_sqlite3OsShmLock
+walLockShared
+pager_truncate
+keen_io_sqlite3OsTruncate
+readMasterJournal
+keen_io_sqlite3PcacheMakeDirty
+read32bits
+pcacheMergeDirtyList
+pcacheAddToDirtyList
+keen_io_sqlite3PcacheRelease
+pcacheUnpin
+keen_io_sqlite3PcacheFetch
+keen_io_sqlite3PagerUnrefNotNull
+pagerUnlockIfUnused
+pagerReleaseMapPage
+readDbPage
+keen_io_sqlite3WalReadFrame
+keen_io_sqlite3WalFindFrame
+walHash
+walNextHash
+walHashGet
+walFramePage
+keen_io_sqlite3PcacheDrop
+keen_io_sqlite3PcacheDirtyList
+pcacheSortDirtyList
+pagerUndoCallback
+keen_io_sqlite3BackupRestart
+keen_io_sqlite3WalUndo
+walFramePgno
+walIndexHdr
+readJournalHdr
+journalHdrOffset
+pager_playback_one_page
+pager_playback
+pager_delmaster
+keen_io_sqlite3PagerSavepoint
+pagerPlaybackSavepoint
+keen_io_sqlite3WalSavepointUndo
+pagerRollbackWal
+keen_io_sqlite3IsMemJournal
+pager_end_transaction
+keen_io_sqlite3WalEndWriteTransaction
+walUnlockExclusive
+keen_io_sqlite3PcacheCleanAll
+zeroJournalHdr
+memjrnlClose
+keen_io_sqlite3PagerRollback
+keen_io_sqlite3WalEndReadTransaction
+releaseAllSavepoints
+keen_io_sqlite3BitvecDestroy
+walMerge
+walIndexClose
+keen_io_sqlite3OsShmUnmap
+keen_io_sqlite3WalCheckpoint
+walCkptInfo
+walCheckpoint
+walIteratorFree
+walBusyLock
+walLockExclusive
+walIteratorNext
+walIteratorInit
+walMergesort
+walPagesize
+pagerUnlockAndRollback
+pagerSyncHotJournal
+pager_unlock
+keen_io_sqlite3WalClose
+keen_io_sqlite3OsLock
+pcache1Free
+keen_io_sqlite3StatusAdd
+keen_io_sqlite3PcacheTruncate
+pcache1Alloc
+keen_io_sqlite3StatusSet
+pager_reset
+keen_io_sqlite3PcacheClear
+decodeFlags
+btreeInitPage
+pcacheRemoveFromDirtyList
+pagerLockDb
+writeJournalHdr
+keen_io_sqlite3PagerExclusiveLock
+walCleanupHash
+walWriteToLog
+walIndexTryHdr
+walChecksumBytes
+walShmBarrier
+keen_io_sqlite3OsShmBarrier
+walIndexPage
+keen_io_sqlite3OsShmMap
+walIndexReadHdr
+walIndexRecover
+walDecodeFrame
+walTryBeginRead
+keen_io_sqlite3OsSleep
+walIndexWriteHdr
+walIndexAppend
+walLimitSize
+walWriteOneFrame
+walEncodeFrame
+keen_io_sqlite3BackupUpdate
+isFatalError
+pager_write_changecounter
+keen_io_sqlite3BitvecSet
+memjrnlFileSize
+memjrnlSync
+memjrnlTruncate
+memjrnlWrite
+memjrnlRead
+addToSavepointBitvecs
+keen_io_sqlite3BitvecTest
+keen_io_sqlite3PcacheMakeClean
+pager_write_pagelist
+pagerOpentemp
+syncJournal
+keen_io_sqlite3PcacheClearSyncFlags
+pagerWalFrames
+keen_io_sqlite3WalFrames
+keen_io_sqlite3SectorSize
+keen_io_sqlite3OsSectorSize
+walRestartLog
+subjournalPage
+openSubJournal
+subjRequiresPage
+pagerStress
+setSectorSize
+keen_io_sqlite3PagerClose
+keen_io_sqlite3PcacheClose
+pagerFreeMapHdrs
+keen_io_sqlite3PagerSetPagesize
+keen_io_sqlite3PcacheSetPageSize
+btreeInvokeBusyHandler
+keen_io_sqlite3InvokeBusyHandler
+pageReinit
+keen_io_sqlite3BtreeOpen
+keen_io_sqlite3PagerIsreadonly
+keen_io_sqlite3PagerSetBusyhandler
+keen_io_sqlite3PagerReadFileheader
+keen_io_sqlite3PagerSetMmapLimit
+keen_io_sqlite3PagerOpen
+keen_io_sqlite3PcacheOpen
+keen_io_sqlite3OsFullPathname
+keen_io_sqlite3PagerVfs
+keen_io_sqlite3OpenTempDatabase
+keen_io_sqlite3VMPrintf
+proxyIoFinderImpl
+nfsIoFinderImpl
+afpIoFinderImpl
+robust_flock
+flockCheckReservedLock
+sqliteErrorFromPosixError
+flockUnlock
+flockLock
+flockClose
+flockIoFinderImpl
+posixIoFinderImpl
+dotlockIoFinderImpl
+nolockIoFinderImpl
+dotlockCheckReservedLock
+dotlockUnlock
+dotlockLock
+dotlockClose
+nfsUnlock
+unixGetpagesize
+posixFchown
+openDirectory
+unixLogErrorAtLine
+posixOpen
+nolockCheckReservedLock
+nolockUnlock
+nolockLock
+nolockClose
+afpSetLock
+afpCheckReservedLock
+unixLeaveMutex
+unixEnterMutex
+afpUnlock
+afpLock
+afpClose
+setPendingFd
+unixShmPurge
+unixShmRegionPerMap
+findInodeInfo
+fillInUnixFile
+findReusableFd
+proxyCreateUnixFile
+proxyCreateLockPath
+robust_open
+proxyConchLock
+proxyBreakConchLock
+proxyCheckReservedLock
+proxyUnlock
+proxyLock
+proxyClose
+proxyReleaseConch
+proxyTransformUnixFile
+proxyCreateConchPathname
+proxyGetDbPathForUnixFile
+proxyTakeConch
+robust_ftruncate
+proxyGetLockPath
+proxyGetHostID
+unixGetTempname
+unixTempFileDir
+unixModeBit
+posixUnlock
+unixFileLock
+seekAndWriteFd
+seekAndRead
+robust_close
+closePendingFds
+fileHasMoved
+closeUnixFile
+releaseInodeInfo
+verifyDbFile
+unixUnfetch
+unixFetch
+unixShmUnmap
+unixShmBarrier
+unixShmLock
+unixShmSystemLock
+unixShmMap
+unixOpenSharedMemory
+unixDeviceCharacteristics
+unixSectorSize
+unixFileControl
+proxyFileControl
+switchLockProxyPath
+fcntlSizeHint
+seekAndWrite
+unixCheckReservedLock
+unixUnlock
+unixLock
+unixFileSize
+unixSync
+full_fsync
+unixTruncate
+unixWrite
+unixRead
+unixClose
+autolockIoFinderImpl
+keen_io_sqlite3DbRealloc
+keen_io_sqlite3StrAccumReset
+keen_io_sqlite3StrAccumEnlarge
+setStrAccumError
+keen_io_sqlite3AppendSpace
+getTextArg
+getIntArg
+keen_io_sqlite3StrAccumAppend
+enlargeAndAppend
+keen_io_sqlite3MallocAlarm
+keen_io_sqlite3StatusValue
+mallocWithAlarm
+keen_io_sqlite3_db_readonly
+keen_io_sqlite3_db_filename
+keen_io_sqlite3Atoi64
+compare2pow63
+keen_io_sqlite3_uri_int64
+keen_io_sqlite3_uri_boolean
+keen_io_sqlite3_uri_parameter
+keen_io_sqlite3ScratchFree
+keen_io_sqlite3ScratchMalloc
+keen_io_sqlite3BtreeSetPageSize
+keen_io_sqlite3_test_control
+keen_io_sqlite3BenignMallocHooks
+keen_io_sqlite3FaultSim
+keen_io_sqlite3BitvecBuiltinTest
+keen_io_sqlite3PrngRestoreState
+keen_io_sqlite3PrngSaveState
+keen_io_sqlite3DbNameToBtree
+keen_io_sqlite3_file_control
+keen_io_sqlite3_extended_result_codes
+keen_io_sqlite3_sleep
+keen_io_sqlite3_thread_cleanup
+keen_io_sqlite3_get_autocommit
+keen_io_sqlite3_global_recover
+keen_io_sqlite3_collation_needed16
+keen_io_sqlite3_collation_needed
+keen_io_sqlite3_create_collation16
+keen_io_sqlite3_create_collation_v2
+createCollation
+invalidateCachedKeyInfo
+keen_io_sqlite3MisuseError
+keen_io_sqlite3_create_collation
+keen_io_sqlite3_open16
+keen_io_sqlite3ApiExit
+keen_io_sqlite3_open_v2
+openDatabase
+keen_io_sqlite3_close
+keen_io_sqlite3_wal_autocheckpoint
+keen_io_sqlite3AutoLoadExtensions
+keen_io_sqlite3RegisterBuiltinFunctions
+keen_io_sqlite3_open
+keen_io_sqlite3_limit
+keen_io_sqlite3_errstr
+keen_io_sqlite3_extended_errcode
+keen_io_sqlite3SafetyCheckSickOrOk
+logBadConnection
+keen_io_sqlite3_errmsg16
+keen_io_sqlite3_value_text16
+keen_io_sqlite3_wal_checkpoint
+keen_io_sqlite3Checkpoint
+keen_io_sqlite3BtreeCheckpoint
+keen_io_sqlite3PagerCheckpoint
+keen_io_sqlite3FindDbName
+keen_io_sqlite3_wal_checkpoint_v2
+keen_io_sqlite3WalDefaultHook
+keen_io_sqlite3_wal_hook
+keen_io_sqlite3_rollback_hook
+keen_io_sqlite3_update_hook
+keen_io_sqlite3_commit_hook
+keen_io_sqlite3_profile
+keen_io_sqlite3_trace
+keen_io_sqlite3InvalidFunction
+keen_io_sqlite3FindFunction
+keen_io_sqlite3_overload_function
+keen_io_sqlite3Utf16to8
+keen_io_sqlite3_create_function16
+keen_io_sqlite3CreateFunc
+keen_io_sqlite3_create_function_v2
+keen_io_sqlite3_create_function
+keen_io_sqlite3_interrupt
+sqliteDefaultBusyCallback
+keen_io_sqlite3_busy_timeout
+keen_io_sqlite3_busy_handler
+keen_io_sqlite3_progress_handler
+keen_io_sqlite3_close_v2
+keen_io_sqlite3Close
+disconnectAllVtab
+keen_io_sqlite3VtabDisconnect
+setupLookaside
+keen_io_sqlite3_db_config
+keen_io_sqlite3_db_release_memory
+keen_io_sqlite3PagerShrink
+keen_io_sqlite3PcacheShrink
+keen_io_sqlite3_db_mutex
+keen_io_sqlite3_config
+keen_io_sqlite3PCacheSetDefault
+keen_io_sqlite3MemSetDefault
+keen_io_sqlite3_shutdown
+keen_io_sqlite3MutexEnd
+keen_io_sqlite3MallocEnd
+keen_io_sqlite3PcacheShutdown
+keen_io_sqlite3_threadsafe
+keen_io_sqlite3_libversion_number
+keen_io_sqlite3_sourceid
+keen_io_sqlite3_libversion
+keen_io_sqlite3_complete16
+keen_io_sqlite3_complete
+keen_io_sqlite3_vtab_config
+keen_io_sqlite3_vtab_on_conflict
+keen_io_sqlite3RunParser
+keen_io_sqlite3ParserFree
+keen_io_sqlite3ParserAlloc
+keen_io_sqlite3_declare_vtab
+keen_io_sqlite3_create_module_v2
+createModule
+keen_io_sqlite3_create_module
+keen_io_sqlite3_free_table
+keen_io_sqlite3_get_table_cb
+keen_io_sqlite3_get_table
+keen_io_sqlite3_prepare16_v2
+keen_io_sqlite3Prepare16
+keen_io_sqlite3Utf16ByteLen
+keen_io_sqlite3_prepare16
+keen_io_sqlite3LockAndPrepare
+keen_io_sqlite3_reset_auto_extension
+keen_io_sqlite3_cancel_auto_extension
+keen_io_sqlite3_auto_extension
+keen_io_sqlite3_enable_load_extension
+keen_io_sqlite3_load_extension
+keen_io_sqlite3LoadExtension
+keen_io_sqlite3OsDlClose
+keen_io_sqlite3OsDlError
+keen_io_sqlite3OsDlSym
+keen_io_sqlite3OsDlOpen
+keen_io_sqlite3_errmsg
+keen_io_sqlite3_errcode
+keen_io_sqlite3_prepare_v2
+keen_io_sqlite3SafetyCheckOk
+keen_io_sqlite3_exec
+keen_io_sqlite3_column_type
+keen_io_sqlite3_column_count
+patternCompare
+keen_io_sqlite3_set_authorizer
+keen_io_sqlite3_blob_reopen
+keen_io_sqlite3_blob_bytes
+keen_io_sqlite3BtreePutData
+keen_io_sqlite3_blob_write
+keen_io_sqlite3BtreeData
+blobReadWrite
+keen_io_sqlite3BtreeLeaveCursor
+keen_io_sqlite3BtreeEnterCursor
+keen_io_sqlite3_blob_read
+keen_io_sqlite3_blob_close
+keen_io_sqlite3ParserReset
+blobSeekToRow
+keen_io_sqlite3BtreeIncrblobCursor
+keen_io_sqlite3VdbeMakeReady
+keen_io_sqlite3VdbeRewind
+allocSpace
+keen_io_sqlite3VdbeChangeToNoop
+keen_io_sqlite3VdbeChangeP4
+keen_io_sqlite3VdbeAddOpList
+keen_io_sqlite3VdbeCreate
+keen_io_sqlite3MPrintf
+keen_io_sqlite3ErrorMsg
+keen_io_sqlite3LocateTable
+keen_io_sqlite3_blob_open
+applyNumericAffinity
+keen_io_sqlite3_value_numeric_type
+keen_io_sqlite3_stmt_status
+keen_io_sqlite3_next_stmt
+keen_io_sqlite3_stmt_busy
+keen_io_sqlite3_stmt_readonly
+keen_io_sqlite3_db_handle
+keen_io_sqlite3TransferBindings
+keen_io_sqlite3_transfer_bindings
+keen_io_sqlite3VdbeParameterIndex
+keen_io_sqlite3_bind_parameter_index
+keen_io_sqlite3_bind_parameter_name
+keen_io_sqlite3_bind_parameter_count
+keen_io_sqlite3_bind_zeroblob
+keen_io_sqlite3_bind_value
+keen_io_sqlite3_bind_blob
+keen_io_sqlite3_bind_text16
+keen_io_sqlite3_bind_text
+keen_io_sqlite3_bind_null
+keen_io_sqlite3_bind_int64
+keen_io_sqlite3_bind_int
+vdbeUnbind
+keen_io_sqlite3_bind_double
+bindText
+keen_io_sqlite3_column_decltype16
+columnName
+keen_io_sqlite3_column_decltype
+keen_io_sqlite3_column_name16
+keen_io_sqlite3_column_name
+keen_io_sqlite3_column_text16
+keen_io_sqlite3_column_value
+keen_io_sqlite3_column_int64
+keen_io_sqlite3_column_int
+keen_io_sqlite3_column_double
+keen_io_sqlite3_column_bytes16
+keen_io_sqlite3_value_bytes16
+keen_io_sqlite3_column_bytes
+columnMallocFailure
+columnMem
+keen_io_sqlite3_column_blob
+keen_io_sqlite3_data_count
+keen_io_sqlite3_aggregate_count
+keen_io_sqlite3DbMallocZero
+keen_io_sqlite3_set_auxdata
+keen_io_sqlite3_get_auxdata
+keen_io_sqlite3VdbeMemGrow
+keen_io_sqlite3VdbeMemReleaseExternal
+keen_io_sqlite3DbStrDup
+vdbeSafetyNotNull
+vdbeSafety
+keen_io_sqlite3_step
+keen_io_sqlite3Reprepare
+keen_io_sqlite3VdbeResetStepResult
+keen_io_sqlite3VdbeSwap
+keen_io_sqlite3_sql
+keen_io_sqlite3Step
+doWalCallbacks
+keen_io_sqlite3PagerWalCallback
+keen_io_sqlite3WalCallback
+keen_io_sqlite3VdbeList
+displayP4
+keen_io_sqlite3OpcodeName
+keen_io_sqlite3_result_error_code
+keen_io_sqlite3VdbeMemCopy
+keen_io_sqlite3_result_text16le
+keen_io_sqlite3_result_text16be
+keen_io_sqlite3_result_text16
+keen_io_sqlite3VdbeMemSetNull
+keen_io_sqlite3_result_error16
+keen_io_sqlite3VdbeMemSetStr
+keen_io_sqlite3VdbeMemHandleBom
+keen_io_sqlite3VdbeMemSetDouble
+setResultStrOrError
+keen_io_sqlite3_value_text16le
+keen_io_sqlite3_value_text16be
+keen_io_sqlite3ValueText
+keen_io_sqlite3VdbeIntValue
+keen_io_sqlite3VdbeRealValue
+keen_io_sqlite3ValueBytes
+keen_io_sqlite3VdbeMemExpandBlob
+keen_io_sqlite3_value_blob
+keen_io_sqlite3VdbeMemRelease
+keen_io_sqlite3_clear_bindings
+keen_io_sqlite3VdbeReset
+Cleanup
+keen_io_sqlite3_reset
+keen_io_sqlite3VdbeFinalize
+keen_io_sqlite3_finalize
+keen_io_sqlite3_expired
+keen_io_sqlite3_backup_pagecount
+keen_io_sqlite3_backup_remaining
+keen_io_sqlite3LeaveMutexAndCloseZombie
+keen_io_sqlite3CloseExtensions
+keen_io_sqlite3BtreeRollback
+btreeClearHasContent
+keen_io_sqlite3PagerPagecount
+keen_io_sqlite3_backup_finish
+keen_io_sqlite3PagerBackupPtr
+keen_io_sqlite3BtreeLeave
+unlockBtreeMutex
+keen_io_sqlite3BtreeCommitPhaseOne
+keen_io_sqlite3PagerTruncateImage
+autoVacuumCommit
+keen_io_sqlite3BtreeCommitPhaseTwo
+keen_io_sqlite3PagerCommitPhaseTwo
+keen_io_sqlite3PagerSync
+keen_io_sqlite3PagerCommitPhaseOne
+writeMasterJournal
+pager_incr_changecounter
+keen_io_sqlite3PagerWrite
+keen_io_sqlite3BtreeSetVersion
+keen_io_sqlite3ResetAllSchemasOfConnection
+keen_io_sqlite3BtreeUpdateMeta
+backupOnePage
+keen_io_sqlite3PagerAcquire
+keen_io_sqlite3BtreeGetMeta
+keen_io_sqlite3BtreeBeginTrans
+keen_io_sqlite3PagerBegin
+keen_io_sqlite3WalBeginWriteTransaction
+lockBtree
+keen_io_sqlite3BtreeEnter
+lockBtreeMutex
+keen_io_sqlite3_mutex_try
+keen_io_sqlite3_backup_step
+backupTruncateFile
+keen_io_sqlite3BtreeNewDb
+attachBackupObject
+findBtree
+keen_io_sqlite3MallocZero
+keen_io_sqlite3Error
+keen_io_sqlite3ValueSetNull
+keen_io_sqlite3_backup_init
+setDestPgsz
+keen_io_sqlite3_enable_shared_cache
+keen_io_sqlite3_os_end
+unixNextSystemCall
+unixGetSystemCall
+unixSetSystemCall
+unixCurrentTimeInt64
+unixGetLastError
+unixCurrentTime
+unixSleep
+unixRandomness
+unixDlClose
+unixDlSym
+unixDlError
+unixDlOpen
+unixFullPathname
+unixAccess
+unixDelete
+unixOpen
+findCreateFileMode
+keen_io_sqlite3_os_init
+keen_io_sqlite3_stricmp
+keen_io_sqlite3_randomness
+keen_io_sqlite3OsRandomness
+keen_io_sqlite3_log
+renderLogMsg
+keen_io_sqlite3_snprintf
+keen_io_sqlite3_vsnprintf
+keen_io_sqlite3_mprintf
+keen_io_sqlite3StrAccumFinish
+keen_io_sqlite3VXPrintf
+et_getdigit
+getDoubleArg
+keen_io_sqlite3_vmprintf
+keen_io_sqlite3Realloc
+keen_io_sqlite3_free
+keen_io_sqlite3Malloc
+keen_io_sqlite3_memory_highwater
+keen_io_sqlite3_status
+keen_io_sqlite3_soft_heap_limit
+keen_io_sqlite3_memory_used
+softHeapLimitEnforcer
+keen_io_sqlite3_soft_heap_limit64
+keen_io_sqlite3MemoryAlarm
+keen_io_sqlite3_memory_alarm
+keen_io_sqlite3_release_memory
+keen_io_sqlite3_vfs_unregister
+vfsUnlink
+keen_io_sqlite3_vfs_register
+keen_io_sqlite3_initialize
+keen_io_sqlite3PCacheBufferSetup
+keen_io_sqlite3OsInit
+keen_io_sqlite3PcacheInitialize
+keen_io_sqlite3RegisterGlobalFunctions
+keen_io_sqlite3AlterFunctions
+keen_io_sqlite3RegisterDateTimeFunctions
+keen_io_sqlite3MallocInit
+keen_io_sqlite3MutexInit
+keen_io_sqlite3_vfs_find
+keen_io_sqlite3VdbeClearObject
+keen_io_sqlite3DeleteTable
+keen_io_sqlite3VtabClear
+keen_io_sqlite3FkDelete
+keen_io_sqlite3DeleteTrigger
+keen_io_sqlite3BtreeLeaveAll
+keen_io_sqlite3BtreeEnterAll
+keen_io_sqlite3_db_status
+keen_io_sqlite3PagerCacheStat
+keen_io_sqlite3PagerMemUsed
+keen_io_sqlite3_strnicmp
+keen_io_sqlite3_compileoption_used
++[HTTPCodes descriptionForCode:]
++[HTTPCodes httpCodeType:]
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/HTTPCodes.m
+-[KeenClient maxEventUploadAttempts]
+-[KeenClient setMaxEventUploadAttempts:]
+-[KeenClient maxQueryAttempts]
+-[KeenClient setMaxQueryAttempts:]
+-[KeenClient queryTTL]
+-[KeenClient setQueryTTL:]
++[KeenClient initialize]
++[KeenClient disableLogging]
++[KeenClient enableLogging]
++[KeenClient isLoggingEnabled]
++[KeenClient setIsNSLogEnabled:]
++[KeenClient isNSLogEnabled]
++[KeenClient addLogSink:]
++[KeenClient removeLogSink:]
++[KeenClient setLogLevel:]
++[KeenClient logMessageWithLevel:andMessage:]
++[KeenClient authorizeGeoLocationAlways]
++[KeenClient authorizeGeoLocationWhenInUse]
++[KeenClient enableGeoLocation]
++[KeenClient disableGeoLocation]
++[KeenClient enableGeoLocationDefaultRequest]
++[KeenClient disableGeoLocationDefaultRequest]
+-[KeenClient clearAllEvents]
++[KeenClient clearAllEvents]
+-[KeenClient clearAllQueries]
++[KeenClient clearAllQueries]
+-[KeenClient getDBStore]
++[KeenClient getDBStore]
+-[KeenClient initWithNetwork:andStore:andUploader:]
+-[KeenClient initWithProjectID:andWriteKey:andReadKey:andNetwork:andStore:andUploader:apiUrlAuthority:]
+-[KeenClient init]
+-[KeenClient initWithProjectID:andWriteKey:andReadKey:]
+-[KeenClient initWithProjectID:andWriteKey:andReadKey:apiUrlAuthority:]
++[KeenClient sharedClientWithProjectID:andWriteKey:andReadKey:]
++[KeenClient sharedClientWithProjectID:andWriteKey:andReadKey:apiUrlAuthority:]
++[KeenClient sharedClient]
+___26+[KeenClient sharedClient]_block_invoke
+-[KeenClient refreshCurrentLocation]
+-[KeenClient startMonitoringLocation]
++[KeenClient isLocationAuthorized:]
+-[KeenClient locationManager:didUpdateToLocation:fromLocation:]
+-[KeenClient locationManager:didChangeAuthorizationStatus:]
+-[KeenClient locationManager:didFailWithError:]
+-[KeenClient validateEventCollection:error:]
+-[KeenClient validateEvent:withDepth:error:]
+-[KeenClient addEvent:toEventCollection:error:]
+-[KeenClient addEvent:withKeenProperties:toEventCollection:error:]
+-[KeenClient importFileData]
+-[KeenClient uploadWithFinishedBlock:]
+-[KeenClient runAsyncQuery:block:]
+-[KeenClient runAsyncQuery:completionHandler:]
+___46-[KeenClient runAsyncQuery:completionHandler:]_block_invoke
+___46-[KeenClient runAsyncQuery:completionHandler:]_block_invoke_2
+___46-[KeenClient runAsyncQuery:completionHandler:]_block_invoke_3
+___copy_helper_block_.271
+___destroy_helper_block_.272
+___copy_helper_block_.277
+___destroy_helper_block_.278
+-[KeenClient mainQueueCompletionHandler:]
+___41-[KeenClient mainQueueCompletionHandler:]_block_invoke
+___41-[KeenClient mainQueueCompletionHandler:]_block_invoke_2
+___copy_helper_block_.280
+___destroy_helper_block_.281
+___copy_helper_block_.283
+___destroy_helper_block_.284
+-[KeenClient runAsyncMultiAnalysisWithQueries:block:]
+-[KeenClient runAsyncMultiAnalysisWithQueries:completionHandler:]
+___65-[KeenClient runAsyncMultiAnalysisWithQueries:completionHandler:]_block_invoke
+___copy_helper_block_.292
+___destroy_helper_block_.293
+-[KeenClient runAsyncSavedAnalysis:completionHandler:]
+___54-[KeenClient runAsyncSavedAnalysis:completionHandler:]_block_invoke
+___copy_helper_block_.297
+___destroy_helper_block_.298
+-[KeenClient runAsyncDatasetQuery:indexValue:timeframe:completionHandler:]
+___74-[KeenClient runAsyncDatasetQuery:indexValue:timeframe:completionHandler:]_block_invoke
+___copy_helper_block_.302
+___destroy_helper_block_.303
+-[KeenClient setProxy:port:]
+-[KeenClient getProxyHost]
+-[KeenClient getProxyPort]
+-[KeenClient runQuery:completionHandler:]
+-[KeenClient runMultiAnalysisWithQueries:completionHandler:]
++[KeenClient sdkVersion]
+-[KeenClient maxEventsPerCollection]
+-[KeenClient numberEventsToForget]
+-[KeenClient globalPropertiesDictionary]
+-[KeenClient setGlobalPropertiesDictionary:]
+-[KeenClient globalPropertiesBlock]
+-[KeenClient setGlobalPropertiesBlock:]
+-[KeenClient currentLocation]
+-[KeenClient setCurrentLocation:]
+-[KeenClient config]
+-[KeenClient setConfig:]
+-[KeenClient locationManager]
+-[KeenClient setLocationManager:]
+-[KeenClient numTimesTimestampUsed]
+-[KeenClient setNumTimesTimestampUsed:]
+-[KeenClient queryQueue]
+-[KeenClient setQueryQueue:]
+-[KeenClient isRunningTests]
+-[KeenClient setIsRunningTests:]
+-[KeenClient network]
+-[KeenClient setNetwork:]
+-[KeenClient store]
+-[KeenClient setStore:]
+-[KeenClient uploader]
+-[KeenClient setUploader:]
+-[KeenClient .cxx_destruct]
+_authorizedGeoLocationAlways
+_authorizedGeoLocationWhenInUse
+_geoLocationEnabled
+_geoLocationRequestEnabled
+_sharedClient.s_sharedClient
+_sharedClient.predicate
+___block_descriptor_tmp.270
+___block_descriptor_tmp.274
+___block_descriptor_tmp.279
+___block_descriptor_tmp.282
+___block_descriptor_tmp.285
+___block_descriptor_tmp.294
+___block_descriptor_tmp.299
+___block_descriptor_tmp.304
+_OBJC_IVAR_$_KeenClient._globalPropertiesDictionary
+_OBJC_IVAR_$_KeenClient._globalPropertiesBlock
+_OBJC_IVAR_$_KeenClient._currentLocation
+_OBJC_IVAR_$_KeenClient._config
+_OBJC_IVAR_$_KeenClient._locationManager
+_OBJC_IVAR_$_KeenClient._numTimesTimestampUsed
+_OBJC_IVAR_$_KeenClient._queryQueue
+_OBJC_IVAR_$_KeenClient._isRunningTests
+_OBJC_IVAR_$_KeenClient._network
+_OBJC_IVAR_$_KeenClient._store
+_OBJC_IVAR_$_KeenClient._uploader
+l_OBJC_PROTOCOL_$_CLLocationManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_CLLocationManagerDelegate
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KeenClient.m
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KeenClient.h
+__74-[KeenClient runAsyncDatasetQuery:indexValue:timeframe:completionHandler:]_block_invoke
+__54-[KeenClient runAsyncSavedAnalysis:completionHandler:]_block_invoke
+__65-[KeenClient runAsyncMultiAnalysisWithQueries:completionHandler:]_block_invoke
+__41-[KeenClient mainQueueCompletionHandler:]_block_invoke_2
+__41-[KeenClient mainQueueCompletionHandler:]_block_invoke
+__46-[KeenClient runAsyncQuery:completionHandler:]_block_invoke_3
+__46-[KeenClient runAsyncQuery:completionHandler:]_block_invoke_2
+__46-[KeenClient runAsyncQuery:completionHandler:]_block_invoke
+__26+[KeenClient sharedClient]_block_invoke
+-[KeenProperties init]
+-[KeenProperties description]
+-[KeenProperties timestamp]
+-[KeenProperties setTimestamp:]
+-[KeenProperties location]
+-[KeenProperties setLocation:]
+-[KeenProperties .cxx_destruct]
+_OBJC_IVAR_$_KeenProperties._timestamp
+_OBJC_IVAR_$_KeenProperties._location
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KeenProperties.m
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KeenProperties.h
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KeenConstants.m
++[KIOFileStore cacheDirectory]
++[KIOFileStore keenDirectoryForProjectID:]
++[KIOFileStore keenSubDirectoriesForProjectID:]
++[KIOFileStore contentsAtPath:]
++[KIOFileStore eventDirectoryForProjectID:andCollection:]
++[KIOFileStore pathForEventForProjectID:inCollection:withTimestamp:]
+___68+[KIOFileStore pathForEventForProjectID:inCollection:withTimestamp:]_block_invoke
++[KIOFileStore importFileDataWithProjectID:]
++[KIOFileStore maybeMigrateDataFromFileStore:]
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KIOFileStore.m
+__68+[KIOFileStore pathForEventForProjectID:inCollection:withTimestamp:]_block_invoke
++[KIOUtil serializeEventToJSON:error:]
++[KIOUtil handleInvalidJSONInObject:]
++[KIOUtil handleError:withErrorMessage:]
++[KIOUtil handleError:withErrorMessage:underlyingError:]
++[KIOUtil convertDate:]
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KIOUtil.m
+-[KIODBStore init]
++[KIODBStore sharedInstance]
+___28+[KIODBStore sharedInstance]_block_invoke
++[KIODBStore getSqliteFullFileName]
+-[KIODBStore openDB]
+___20-[KIODBStore openDB]_block_invoke
+-[KIODBStore deleteAndRecreateCorruptDB]
+-[KIODBStore openAndInitDB]
+-[KIODBStore closeDB]
+-[KIODBStore drainQueue]
+___24-[KIODBStore drainQueue]_block_invoke
+-[KIODBStore createTables]
+___26-[KIODBStore createTables]_block_invoke
+___copy_helper_block_.84
+___destroy_helper_block_.85
+-[KIODBStore queryUserVersion]
+-[KIODBStore setUserVersion:]
+-[KIODBStore migrateTable]
+___26-[KIODBStore migrateTable]_block_invoke
+___copy_helper_block_.100
+___destroy_helper_block_.101
+-[KIODBStore migrateFromVersion:]
+-[KIODBStore runMigration:]
+-[KIODBStore doTransaction:]
+-[KIODBStore beginTransaction]
+-[KIODBStore commitTransaction]
+-[KIODBStore rollbackTransaction]
+-[KIODBStore endTransaction]
+-[KIODBStore addEvent:collection:projectID:]
+___44-[KIODBStore addEvent:collection:projectID:]_block_invoke
+___copy_helper_block_.163
+___destroy_helper_block_.164
+-[KIODBStore getEventsWithMaxAttempts:andProjectID:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___52-[KIODBStore getEventsWithMaxAttempts:andProjectID:]_block_invoke
+___copy_helper_block_.193
+___destroy_helper_block_.194
+-[KIODBStore resetPendingEventsWithProjectID:]
+___46-[KIODBStore resetPendingEventsWithProjectID:]_block_invoke
+___copy_helper_block_.202
+___destroy_helper_block_.203
+-[KIODBStore hasPendingEventsWithProjectID:]
+-[KIODBStore getPendingEventCountWithProjectID:]
+___48-[KIODBStore getPendingEventCountWithProjectID:]_block_invoke
+___copy_helper_block_.215
+___destroy_helper_block_.216
+-[KIODBStore getTotalEventCountWithProjectID:]
+___46-[KIODBStore getTotalEventCountWithProjectID:]_block_invoke
+___copy_helper_block_.224
+___destroy_helper_block_.225
+-[KIODBStore deleteEvent:]
+___26-[KIODBStore deleteEvent:]_block_invoke
+___copy_helper_block_.235
+___destroy_helper_block_.236
+-[KIODBStore deleteAllEvents]
+___29-[KIODBStore deleteAllEvents]_block_invoke
+___copy_helper_block_.240
+___destroy_helper_block_.241
+-[KIODBStore deleteEventsFromOffset:]
+___37-[KIODBStore deleteEventsFromOffset:]_block_invoke
+___copy_helper_block_.245
+___destroy_helper_block_.246
+-[KIODBStore incrementEventUploadAttempts:]
+___43-[KIODBStore incrementEventUploadAttempts:]_block_invoke
+___copy_helper_block_.254
+___destroy_helper_block_.255
+-[KIODBStore purgePendingEventsWithProjectID:]
+___46-[KIODBStore purgePendingEventsWithProjectID:]_block_invoke
+___copy_helper_block_.263
+___destroy_helper_block_.264
+-[KIODBStore addQuery:queryType:collection:projectID:]
+___54-[KIODBStore addQuery:queryType:collection:projectID:]_block_invoke
+___copy_helper_block_.272
+___destroy_helper_block_.273
+-[KIODBStore getQuery:queryType:collection:projectID:]
+___54-[KIODBStore getQuery:queryType:collection:projectID:]_block_invoke
+___copy_helper_block_.299
+___destroy_helper_block_.300
+-[KIODBStore incrementQueryAttempts:]
+___37-[KIODBStore incrementQueryAttempts:]_block_invoke
+___copy_helper_block_.304
+___destroy_helper_block_.305
+-[KIODBStore findOrUpdateQuery:queryType:collection:projectID:]
+-[KIODBStore getTotalQueryCountWithProjectID:]
+___46-[KIODBStore getTotalQueryCountWithProjectID:]_block_invoke
+___copy_helper_block_.319
+___destroy_helper_block_.320
+-[KIODBStore hasQueryWithMaxAttempts:queryType:collection:projectID:maxAttempts:queryTTL:]
+___90-[KIODBStore hasQueryWithMaxAttempts:queryType:collection:projectID:maxAttempts:queryTTL:]_block_invoke
+___copy_helper_block_.340
+___destroy_helper_block_.341
+-[KIODBStore deleteAllQueries]
+___30-[KIODBStore deleteAllQueries]_block_invoke
+___copy_helper_block_.347
+___destroy_helper_block_.348
+-[KIODBStore deleteQueriesOlderThan:]
+___37-[KIODBStore deleteQueriesOlderThan:]_block_invoke
+___copy_helper_block_.358
+___destroy_helper_block_.359
+-[KIODBStore checkOpenDB:]
+-[KIODBStore prepareSQLStatement:sqlQuery:failureMessage:]
+-[KIODBStore resetSQLiteStatement:]
+-[KIODBStore prepareAllSQLiteStatements]
+-[KIODBStore handleSQLiteFailure:]
+-[KIODBStore dbQueue]
+-[KIODBStore setDbQueue:]
+-[KIODBStore .cxx_destruct]
+_OBJC_IVAR_$_KIODBStore.keen_dbname
+_OBJC_IVAR_$_KIODBStore.dbIsOpen
+_OBJC_IVAR_$_KIODBStore.openLock
+_sharedInstance.s_sharedDBStore
+___block_descriptor_tmp.38
+_OBJC_IVAR_$_KIODBStore.insert_event_stmt
+_OBJC_IVAR_$_KIODBStore.find_event_stmt
+_OBJC_IVAR_$_KIODBStore.count_all_events_stmt
+_OBJC_IVAR_$_KIODBStore.count_pending_events_stmt
+_OBJC_IVAR_$_KIODBStore.make_pending_event_stmt
+_OBJC_IVAR_$_KIODBStore.reset_pending_events_stmt
+_OBJC_IVAR_$_KIODBStore.purge_events_stmt
+_OBJC_IVAR_$_KIODBStore.delete_event_stmt
+_OBJC_IVAR_$_KIODBStore.delete_all_events_stmt
+_OBJC_IVAR_$_KIODBStore.increment_event_attempts_statement
+_OBJC_IVAR_$_KIODBStore.delete_too_many_attempts_events_statement
+_OBJC_IVAR_$_KIODBStore.age_out_events_stmt
+_OBJC_IVAR_$_KIODBStore.insert_query_stmt
+_OBJC_IVAR_$_KIODBStore.count_all_queries_stmt
+_OBJC_IVAR_$_KIODBStore.get_query_stmt
+_OBJC_IVAR_$_KIODBStore.increment_query_attempts_statement
+_OBJC_IVAR_$_KIODBStore.delete_all_queries_stmt
+_OBJC_IVAR_$_KIODBStore.get_query_with_attempts_stmt
+_OBJC_IVAR_$_KIODBStore.age_out_queries_stmt
+___block_descriptor_tmp.68
+___block_literal_global.69
+___block_descriptor_tmp.86
+_queryUserVersion.stmt_version
+___block_descriptor_tmp.102
+___block_descriptor_tmp.165
+___block_descriptor_tmp.195
+___block_descriptor_tmp.204
+___block_descriptor_tmp.217
+___block_descriptor_tmp.226
+___block_descriptor_tmp.237
+___block_descriptor_tmp.242
+___block_descriptor_tmp.247
+___block_descriptor_tmp.256
+___block_descriptor_tmp.265
+___block_descriptor_tmp.301
+___block_descriptor_tmp.306
+___block_descriptor_tmp.321
+___block_descriptor_tmp.342
+___block_descriptor_tmp.349
+___block_descriptor_tmp.360
+_OBJC_IVAR_$_KIODBStore._dbQueue
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KIODBStore.m
+__37-[KIODBStore deleteQueriesOlderThan:]_block_invoke
+__30-[KIODBStore deleteAllQueries]_block_invoke
+__90-[KIODBStore hasQueryWithMaxAttempts:queryType:collection:projectID:maxAttempts:queryTTL:]_block_invoke
+__46-[KIODBStore getTotalQueryCountWithProjectID:]_block_invoke
+__37-[KIODBStore incrementQueryAttempts:]_block_invoke
+__54-[KIODBStore getQuery:queryType:collection:projectID:]_block_invoke
+__54-[KIODBStore addQuery:queryType:collection:projectID:]_block_invoke
+__46-[KIODBStore purgePendingEventsWithProjectID:]_block_invoke
+__43-[KIODBStore incrementEventUploadAttempts:]_block_invoke
+__37-[KIODBStore deleteEventsFromOffset:]_block_invoke
+__29-[KIODBStore deleteAllEvents]_block_invoke
+__26-[KIODBStore deleteEvent:]_block_invoke
+__46-[KIODBStore getTotalEventCountWithProjectID:]_block_invoke
+__48-[KIODBStore getPendingEventCountWithProjectID:]_block_invoke
+__46-[KIODBStore resetPendingEventsWithProjectID:]_block_invoke
+__52-[KIODBStore getEventsWithMaxAttempts:andProjectID:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__44-[KIODBStore addEvent:collection:projectID:]_block_invoke
+__26-[KIODBStore migrateTable]_block_invoke
+__26-[KIODBStore createTables]_block_invoke
+__24-[KIODBStore drainQueue]_block_invoke
+__20-[KIODBStore openDB]_block_invoke
+__28+[KIODBStore sharedInstance]_block_invoke
+-[KIOQuery initWithQuery:andPropertiesDictionary:]
+-[KIOQuery initWithQuery:andQueryName:andPropertiesDictionary:]
+-[KIOQuery convertQueryToData]
+-[KIOQuery queryType]
+-[KIOQuery setQueryType:]
+-[KIOQuery queryName]
+-[KIOQuery setQueryName:]
+-[KIOQuery propertiesDictionary]
+-[KIOQuery setPropertiesDictionary:]
+-[KIOQuery .cxx_destruct]
+_OBJC_IVAR_$_KIOQuery._queryType
+_OBJC_IVAR_$_KIOQuery._queryName
+_OBJC_IVAR_$_KIOQuery._propertiesDictionary
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KIOQuery.m
+/Users/mpa/dev/watlol/Carthage/Checkouts/KeenClient-iOS/KeenClient/KIOQuery.h
+/Users/mpa/Library/Caches/org.carthage.CarthageKit/DerivedData/KeenClient-iOS/3.7.0/Build/Intermediates/KeenClient.build/Release-iphoneos/KeenClientFramework.build/DerivedSources/KeenClient_vers.c
